@@ -1,0 +1,335 @@
+.class final Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;
+.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.source "UnknownSimpleActivityViewModel.kt"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel;->getHDACStatus(Lcom/nothing/earbase/equalizer/viewmodel/EqualizerTypeViewModel;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Lkotlinx/coroutines/CoroutineScope;",
+        "Lkotlin/coroutines/Continuation<",
+        "-",
+        "Lkotlin/Unit;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\n"
+    }
+    d2 = {
+        "<anonymous>",
+        "",
+        "Lkotlinx/coroutines/CoroutineScope;"
+    }
+    k = 0x3
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+.annotation runtime Lkotlin/coroutines/jvm/internal/DebugMetadata;
+    c = "com.nothing.earbase.unknown.UnknownSimpleActivityViewModel$getHDACStatus$1$1"
+    f = "UnknownSimpleActivityViewModel.kt"
+    i = {}
+    l = {
+        0x141,
+        0x145
+    }
+    m = "invokeSuspend"
+    n = {}
+    s = {}
+.end annotation
+
+
+# instance fields
+.field final synthetic $this_apply:Lcom/nothing/protocol/device/TWSDevice;
+
+.field final synthetic $typeViewModel:Lcom/nothing/earbase/equalizer/viewmodel/EqualizerTypeViewModel;
+
+.field label:I
+
+.field final synthetic this$0:Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel;
+
+
+# direct methods
+.method constructor <init>(Lcom/nothing/protocol/device/TWSDevice;Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel;Lcom/nothing/earbase/equalizer/viewmodel/EqualizerTypeViewModel;Lkotlin/coroutines/Continuation;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/nothing/protocol/device/TWSDevice;",
+            "Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel;",
+            "Lcom/nothing/earbase/equalizer/viewmodel/EqualizerTypeViewModel;",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->$this_apply:Lcom/nothing/protocol/device/TWSDevice;
+
+    iput-object p2, p0, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->this$0:Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel;
+
+    iput-object p3, p0, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->$typeViewModel:Lcom/nothing/earbase/equalizer/viewmodel/EqualizerTypeViewModel;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p4}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/Continuation;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lkotlin/coroutines/Continuation<",
+            "*>;)",
+            "Lkotlin/coroutines/Continuation<",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance p1, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;
+
+    iget-object v0, p0, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->$this_apply:Lcom/nothing/protocol/device/TWSDevice;
+
+    iget-object v1, p0, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->this$0:Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel;
+
+    iget-object v2, p0, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->$typeViewModel:Lcom/nothing/earbase/equalizer/viewmodel/EqualizerTypeViewModel;
+
+    invoke-direct {p1, v0, v1, v2, p2}, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;-><init>(Lcom/nothing/protocol/device/TWSDevice;Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel;Lcom/nothing/earbase/equalizer/viewmodel/EqualizerTypeViewModel;Lkotlin/coroutines/Continuation;)V
+
+    check-cast p1, Lkotlin/coroutines/Continuation;
+
+    return-object p1
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Lkotlinx/coroutines/CoroutineScope;
+
+    check-cast p2, Lkotlin/coroutines/Continuation;
+
+    invoke-virtual {p0, p1, p2}, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invoke(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlinx/coroutines/CoroutineScope;",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "Lkotlin/Unit;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    invoke-virtual {p0, p1, p2}, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;
+
+    sget-object p2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    invoke-virtual {p1, p2}, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 13
+
+    invoke-static {}, Lkotlin/coroutines/intrinsics/IntrinsicsKt;->getCOROUTINE_SUSPENDED()Ljava/lang/Object;
+
+    move-result-object v0
+
+    .line 319
+    iget v1, p0, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->label:I
+
+    const/4 v2, 0x2
+
+    const/4 v3, 0x1
+
+    if-eqz v1, :cond_2
+
+    if-eq v1, v3, :cond_1
+
+    if-ne v1, v2, :cond_0
+
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    goto :goto_3
+
+    :cond_0
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    const-string v0, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_1
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    goto :goto_0
+
+    :cond_2
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    move p1, v3
+
+    .line 321
+    iget-object v3, p0, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->$this_apply:Lcom/nothing/protocol/device/TWSDevice;
+
+    move-object v10, p0
+
+    check-cast v10, Lkotlin/coroutines/Continuation;
+
+    iput p1, p0, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->label:I
+
+    const v4, 0xc029
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x0
+
+    const/4 v8, 0x0
+
+    const/4 v9, 0x0
+
+    const/16 v11, 0x3e
+
+    const/4 v12, 0x0
+
+    invoke-static/range {v3 .. v12}, Lcom/nothing/protocol/device/TWSDevice;->sendMessageSync$default(Lcom/nothing/protocol/device/TWSDevice;I[BZZLjava/lang/Long;[BLkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    if-ne p1, v0, :cond_3
+
+    goto :goto_2
+
+    :cond_3
+    :goto_0
+    check-cast p1, Lcom/nothing/protocol/model/Message;
+
+    const/4 v1, 0x0
+
+    if-eqz p1, :cond_4
+
+    .line 322
+    const-class v3, Lcom/nothing/base/protocol/entity/BasicInt;
+
+    .line 321
+    invoke-virtual {p1, v3}, Lcom/nothing/protocol/model/Message;->obtainPayload(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/nothing/base/protocol/entity/BasicInt;
+
+    goto :goto_1
+
+    :cond_4
+    move-object p1, v1
+
+    :goto_1
+    if-eqz p1, :cond_5
+
+    .line 324
+    invoke-virtual {p1}, Lcom/nothing/base/protocol/entity/BasicInt;->getValue()I
+
+    move-result p1
+
+    if-nez p1, :cond_5
+
+    .line 329
+    iget-object p1, p0, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->this$0:Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel;
+
+    iget-object v0, p0, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->$typeViewModel:Lcom/nothing/earbase/equalizer/viewmodel/EqualizerTypeViewModel;
+
+    invoke-virtual {p1, v0}, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel;->sendEqModelData(Lcom/nothing/earbase/equalizer/viewmodel/EqualizerTypeViewModel;)V
+
+    goto :goto_3
+
+    .line 325
+    :cond_5
+    invoke-static {}, Lkotlinx/coroutines/Dispatchers;->getMain()Lkotlinx/coroutines/MainCoroutineDispatcher;
+
+    move-result-object p1
+
+    check-cast p1, Lkotlin/coroutines/CoroutineContext;
+
+    new-instance v3, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1$1;
+
+    iget-object v4, p0, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->this$0:Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel;
+
+    iget-object v5, p0, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->$typeViewModel:Lcom/nothing/earbase/equalizer/viewmodel/EqualizerTypeViewModel;
+
+    invoke-direct {v3, v4, v5, v1}, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1$1;-><init>(Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel;Lcom/nothing/earbase/equalizer/viewmodel/EqualizerTypeViewModel;Lkotlin/coroutines/Continuation;)V
+
+    check-cast v3, Lkotlin/jvm/functions/Function2;
+
+    move-object v1, p0
+
+    check-cast v1, Lkotlin/coroutines/Continuation;
+
+    iput v2, p0, Lcom/nothing/earbase/unknown/UnknownSimpleActivityViewModel$getHDACStatus$1$1;->label:I
+
+    invoke-static {p1, v3, v1}, Lkotlinx/coroutines/BuildersKt;->withContext(Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/functions/Function2;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    if-ne p1, v0, :cond_6
+
+    :goto_2
+    return-object v0
+
+    .line 331
+    :cond_6
+    :goto_3
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p1
+.end method

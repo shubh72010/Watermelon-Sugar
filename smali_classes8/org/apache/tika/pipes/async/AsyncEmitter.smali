@@ -1,0 +1,283 @@
+.class public Lorg/apache/tika/pipes/async/AsyncEmitter;
+.super Ljava/lang/Object;
+.source "AsyncEmitter.java"
+
+# interfaces
+.implements Ljava/util/concurrent/Callable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lorg/apache/tika/pipes/async/AsyncEmitter$EmitDataCache;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/util/concurrent/Callable<",
+        "Ljava/lang/Integer;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field static final EMITTER_FUTURE_CODE:I = 0x2
+
+.field static final EMIT_DATA_STOP_SEMAPHORE:Lorg/apache/tika/pipes/emitter/EmitData;
+
+.field private static final LOG:Lorg/slf4j/Logger;
+
+
+# instance fields
+.field private final asyncConfig:Lorg/apache/tika/pipes/async/AsyncConfig;
+
+.field private final emitDataQueue:Ljava/util/concurrent/ArrayBlockingQueue;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/concurrent/ArrayBlockingQueue<",
+            "Lorg/apache/tika/pipes/emitter/EmitData;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final emitterManager:Lorg/apache/tika/pipes/emitter/EmitterManager;
+
+.field lastEmitted:Ljava/time/Instant;
+
+
+# direct methods
+.method static bridge synthetic -$$Nest$fgetemitterManager(Lorg/apache/tika/pipes/async/AsyncEmitter;)Lorg/apache/tika/pipes/emitter/EmitterManager;
+    .locals 0
+
+    iget-object p0, p0, Lorg/apache/tika/pipes/async/AsyncEmitter;->emitterManager:Lorg/apache/tika/pipes/emitter/EmitterManager;
+
+    return-object p0
+.end method
+
+.method static bridge synthetic -$$Nest$sfgetLOG()Lorg/slf4j/Logger;
+    .locals 1
+
+    sget-object v0, Lorg/apache/tika/pipes/async/AsyncEmitter;->LOG:Lorg/slf4j/Logger;
+
+    return-object v0
+.end method
+
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 45
+    new-instance v0, Lorg/apache/tika/pipes/emitter/EmitData;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1, v1, v1}, Lorg/apache/tika/pipes/emitter/EmitData;-><init>(Lorg/apache/tika/pipes/emitter/EmitKey;Ljava/util/List;Ljava/lang/String;)V
+
+    sput-object v0, Lorg/apache/tika/pipes/async/AsyncEmitter;->EMIT_DATA_STOP_SEMAPHORE:Lorg/apache/tika/pipes/emitter/EmitData;
+
+    .line 48
+    const-class v0, Lorg/apache/tika/pipes/async/AsyncEmitter;
+
+    invoke-static {v0}, Lorg/slf4j/LoggerFactory;->getLogger(Ljava/lang/Class;)Lorg/slf4j/Logger;
+
+    move-result-object v0
+
+    sput-object v0, Lorg/apache/tika/pipes/async/AsyncEmitter;->LOG:Lorg/slf4j/Logger;
+
+    return-void
+.end method
+
+.method public constructor <init>(Lorg/apache/tika/pipes/async/AsyncConfig;Ljava/util/concurrent/ArrayBlockingQueue;Lorg/apache/tika/pipes/emitter/EmitterManager;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/apache/tika/pipes/async/AsyncConfig;",
+            "Ljava/util/concurrent/ArrayBlockingQueue<",
+            "Lorg/apache/tika/pipes/emitter/EmitData;",
+            ">;",
+            "Lorg/apache/tika/pipes/emitter/EmitterManager;",
+            ")V"
+        }
+    .end annotation
+
+    .line 57
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 54
+    invoke-static {}, Ljava/time/Instant;->now()Ljava/time/Instant;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lorg/apache/tika/pipes/async/AsyncEmitter;->lastEmitted:Ljava/time/Instant;
+
+    .line 58
+    iput-object p1, p0, Lorg/apache/tika/pipes/async/AsyncEmitter;->asyncConfig:Lorg/apache/tika/pipes/async/AsyncConfig;
+
+    .line 59
+    iput-object p2, p0, Lorg/apache/tika/pipes/async/AsyncEmitter;->emitDataQueue:Ljava/util/concurrent/ArrayBlockingQueue;
+
+    .line 60
+    iput-object p3, p0, Lorg/apache/tika/pipes/async/AsyncEmitter;->emitterManager:Lorg/apache/tika/pipes/emitter/EmitterManager;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public call()Ljava/lang/Integer;
+    .locals 6
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 65
+    new-instance v0, Lorg/apache/tika/pipes/async/AsyncEmitter$EmitDataCache;
+
+    iget-object v1, p0, Lorg/apache/tika/pipes/async/AsyncEmitter;->asyncConfig:Lorg/apache/tika/pipes/async/AsyncConfig;
+
+    invoke-virtual {v1}, Lorg/apache/tika/pipes/async/AsyncConfig;->getEmitMaxEstimatedBytes()J
+
+    move-result-wide v1
+
+    invoke-direct {v0, p0, v1, v2}, Lorg/apache/tika/pipes/async/AsyncEmitter$EmitDataCache;-><init>(Lorg/apache/tika/pipes/async/AsyncEmitter;J)V
+
+    .line 68
+    :cond_0
+    :goto_0
+    iget-object v1, p0, Lorg/apache/tika/pipes/async/AsyncEmitter;->emitDataQueue:Ljava/util/concurrent/ArrayBlockingQueue;
+
+    const-wide/16 v2, 0x1f4
+
+    sget-object v4, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+
+    invoke-virtual {v1, v2, v3, v4}, Ljava/util/concurrent/ArrayBlockingQueue;->poll(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lorg/apache/tika/pipes/emitter/EmitData;
+
+    .line 69
+    sget-object v2, Lorg/apache/tika/pipes/async/AsyncEmitter;->EMIT_DATA_STOP_SEMAPHORE:Lorg/apache/tika/pipes/emitter/EmitData;
+
+    if-ne v1, v2, :cond_1
+
+    .line 70
+    invoke-static {v0}, Lorg/apache/tika/pipes/async/AsyncEmitter$EmitDataCache;->-$$Nest$memitAll(Lorg/apache/tika/pipes/async/AsyncEmitter$EmitDataCache;)V
+
+    const/4 v0, 0x2
+
+    .line 71
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_1
+    if-eqz v1, :cond_2
+
+    .line 75
+    invoke-virtual {v0, v1}, Lorg/apache/tika/pipes/async/AsyncEmitter$EmitDataCache;->add(Lorg/apache/tika/pipes/emitter/EmitData;)V
+
+    goto :goto_1
+
+    .line 77
+    :cond_2
+    sget-object v1, Lorg/apache/tika/pipes/async/AsyncEmitter;->LOG:Lorg/slf4j/Logger;
+
+    const-string v2, "Nothing on the async queue"
+
+    invoke-interface {v1, v2}, Lorg/slf4j/Logger;->trace(Ljava/lang/String;)V
+
+    .line 79
+    :goto_1
+    sget-object v1, Lorg/apache/tika/pipes/async/AsyncEmitter;->LOG:Lorg/slf4j/Logger;
+
+    iget-wide v2, v0, Lorg/apache/tika/pipes/async/AsyncEmitter$EmitDataCache;->estimatedSize:J
+
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v2
+
+    iget v3, v0, Lorg/apache/tika/pipes/async/AsyncEmitter$EmitDataCache;->size:I
+
+    .line 80
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v3
+
+    .line 79
+    const-string v4, "cache size: ({}) bytes and extract count: {}"
+
+    invoke-interface {v1, v4, v2, v3}, Lorg/slf4j/Logger;->debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 81
+    sget-object v2, Ljava/time/temporal/ChronoUnit;->MILLIS:Ljava/time/temporal/ChronoUnit;
+
+    iget-object v3, p0, Lorg/apache/tika/pipes/async/AsyncEmitter;->lastEmitted:Ljava/time/Instant;
+
+    invoke-static {}, Ljava/time/Instant;->now()Ljava/time/Instant;
+
+    move-result-object v4
+
+    invoke-virtual {v2, v3, v4}, Ljava/time/temporal/ChronoUnit;->between(Ljava/time/temporal/Temporal;Ljava/time/temporal/Temporal;)J
+
+    move-result-wide v2
+
+    .line 82
+    iget-object v4, p0, Lorg/apache/tika/pipes/async/AsyncEmitter;->asyncConfig:Lorg/apache/tika/pipes/async/AsyncConfig;
+
+    invoke-virtual {v4}, Lorg/apache/tika/pipes/async/AsyncConfig;->getEmitWithinMillis()J
+
+    move-result-wide v4
+
+    cmp-long v4, v2, v4
+
+    if-lez v4, :cond_0
+
+    .line 83
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v2
+
+    iget-object v3, p0, Lorg/apache/tika/pipes/async/AsyncEmitter;->asyncConfig:Lorg/apache/tika/pipes/async/AsyncConfig;
+
+    invoke-virtual {v3}, Lorg/apache/tika/pipes/async/AsyncConfig;->getEmitWithinMillis()J
+
+    move-result-wide v3
+
+    invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v3
+
+    const-string v4, "{} elapsed > {}, going to emitAll"
+
+    invoke-interface {v1, v4, v2, v3}, Lorg/slf4j/Logger;->debug(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 85
+    invoke-static {v0}, Lorg/apache/tika/pipes/async/AsyncEmitter$EmitDataCache;->-$$Nest$memitAll(Lorg/apache/tika/pipes/async/AsyncEmitter$EmitDataCache;)V
+
+    goto :goto_0
+.end method
+
+.method public bridge synthetic call()Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 43
+    invoke-virtual {p0}, Lorg/apache/tika/pipes/async/AsyncEmitter;->call()Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method

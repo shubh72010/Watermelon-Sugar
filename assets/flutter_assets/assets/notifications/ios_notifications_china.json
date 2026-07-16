@@ -1,0 +1,162 @@
+[
+  {
+    "name": "微信",
+    "command": 1,
+    "isOn": 1,
+    "packageName": "com.tencent.xin",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "QQ",
+    "command": 2,
+    "isOn": 1,
+    "packageName": "com.tencent.mqq",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "短信",
+    "command": 0,
+    "isOn": 1,
+    "packageName": "com.apple.MobileSMS",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "电话",
+    "command": 254,
+    "isOn": 1,
+    "packageName": "com.apple.mobilephone",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "日历",
+    "command": 36,
+    "isOn": 1,
+    "packageName": "com.apple.mobilecal",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "美团",
+    "command": 82,
+    "isOn": 1,
+    "packageName": "com.meituan.imeituan",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "饿了么",
+    "command": 83,
+    "isOn": 1,
+    "packageName": "me.ele.ios.eleme",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "滴滴出行",
+    "command": 84,
+    "isOn": 1,
+    "packageName": "com.xiaojukeji.didi",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "钉钉",
+    "command": 5,
+    "isOn": 1,
+    "packageName": "com.laiwang.DingTalk",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "企业微信",
+    "command": 85,
+    "isOn": 1,
+    "packageName": "com.tencent.ww",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "Nothing X",
+    "command": 7,
+    "isOn": 1,
+    "packageName": "com.jusdots.watermelon",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "淘宝",
+    "command": 6,
+    "isOn": 1,
+    "packageName": "com.taobao.taobao4iphone",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "京东",
+    "command": 86,
+    "isOn": 1,
+    "packageName": "com.360buy.jdmobile",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "拼多多",
+    "command": 87,
+    "isOn": 1,
+    "packageName": "com.xunmeng.pinduoduo",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "小红书",
+    "command": 88,
+    "isOn": 1,
+    "packageName": "com.xingin.discover",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "哔哩哔哩",
+    "command": 89,
+    "isOn": 1,
+    "packageName": "tv.danmaku.bilianime",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "抖音",
+    "command": 91,
+    "isOn": 1,
+    "packageName": "com.ss.iphone.ugc.Aweme",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "微博",
+    "command": 90,
+    "isOn": 1,
+    "packageName": "com.sina.weibo",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "飞书",
+    "command": 92,
+    "isOn": 1,
+    "packageName": "com.bytedance.ee.lark",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "其他",
+    "packageName":"com.cn.others",
+    "command": 255,
+    "isOn": 1,
+    "otherApp": 0,
+    "isChina": 1
+  }
+]

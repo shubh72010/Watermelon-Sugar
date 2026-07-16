@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" package="com.jusdots.watermelon" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <queries>
+        <package android:name="com.google.android.calendar"/>
+        <intent>
+            <action android:name="android.intent.action.PROCESS_TEXT"/>
+            <data android:mimeType="text/plain"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="sms"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="tel"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="https"/>
+        </intent>
+        <package android:name="com.openai.chatgpt"/>
+        <package android:name="com.google.android.apps.nexuslauncher"/>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.HOME"/>
+        </intent>
+        <package android:name="com.nothing.hearthstone"/>
+        <package android:name="com.android.settings"/>
+        <package android:name="com.nothing.ntessentialrecorder"/>
+        <package android:name="com.android.companiondevicemanager"/>
+        <package android:name="com.jusdots.watermelon"/>
+        <package android:name="com.nothing.cmf.watch"/>
+        <package android:name="com.google.android.apps.healthdata"/>
+        <package android:name="com.nothing.ai.service"/>
+        <package android:name="com.nothing.cardservice"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="mailto"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <package android:name="com.google.android.apps.maps"/>
+        <package android:name="com.spotify.music"/>
+        <package android:name="com.spotify.music.debug"/>
+        <package android:name="com.spotify.music.canary"/>
+        <package android:name="com.spotify.music.partners"/>
+        <intent>
+            <action android:name="com.spotify.sso.action.START_AUTH_FLOW"/>
+            <data android:mimeType="text/plain"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="true"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.nothing.nothingx.permission.PROVIDER_GPT.WRITE"/>
+    <uses-permission android:name="com.nothing.nothingx.permission.PROVIDER_GPT.READ"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="com.nothing.ntessentialrecorder.permission.SELF"/>
+    <uses-feature android:name="android.software.leanback" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECEIVE_SENSITIVE_NOTIFICATIONS"/>
+    <uses-permission android:name="com.nothing.xservice.permission.ACCESS_XSERVICE"/>
+    <uses-permission android:name="com.nothing.settings.permission.PROVIDER_BLUETOOTH_DATA"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" android:usesPermissionFlags="neverForLocation"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
+    <uses-permission android:name="android.permission.BODY_SENSORS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.health.WRITE_HEART_RATE"/>
+    <uses-permission android:name="android.permission.health.WRITE_STEPS"/>
+    <uses-permission android:name="android.permission.health.WRITE_SLEEP"/>
+    <uses-permission android:name="android.permission.health.WRITE_OXYGEN_SATURATION"/>
+    <uses-permission android:name="android.permission.health.READ_EXERCISE"/>
+    <uses-permission android:name="android.permission.health.WRITE_EXERCISE"/>
+    <uses-permission android:name="android.permission.health.WRITE_EXERCISE_ROUTE"/>
+    <uses-permission android:name="android.permission.health.READ_EXERCISE_ROUTES"/>
+    <uses-permission android:name="android.permission.health.WRITE_TOTAL_CALORIES_BURNED"/>
+    <uses-permission android:name="android.permission.health.WRITE_ACTIVE_CALORIES_BURNED"/>
+    <uses-permission android:name="android.permission.health.WRITE_VO2_MAX"/>
+    <uses-permission android:name="android.permission.health.WRITE_STEP_CADENCE"/>
+    <uses-permission android:name="android.permission.health.WRITE_WEIGHT"/>
+    <uses-permission android:name="android.permission.health.WRITE_HEIGHT"/>
+    <uses-permission android:name="android.permission.health.WRITE_MENSTRUATION"/>
+    <uses-permission android:name="android.permission.health.WRITE_DISTANCE"/>
+    <uses-permission android:name="android.permission.health.WRITE_SPEED"/>
+    <uses-permission android:name="android.permission.health.WRITE_RESTING_HEART_RATE"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_MMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH"/>
+    <uses-permission android:name="com.nothing.settings.permission.PERMISSION_ACCESS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <meta-data android:name="flutterEmbedding" android:value="2"/>
+    <uses-permission android:name="com.nothing.xservice.permission.PROVIDER_XVIEW_DATA"/>
+    <uses-permission android:name="com.nothing.cmf.watch.permission.PROVIDER_XVIEW_DATA"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.nothing.soundrecorder.permission.RECORD"/>
+    <permission android:name="com.jusdots.watermelon.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.jusdots.watermelon.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS_PRIVILEGED"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-permission android:name="com.nothing.permission.BIND_CARD_SERVICE"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:enableOnBackInvokedCallback="true" android:extractNativeLibs="false" android:fullBackupContent="@xml/backup_rules" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="Nothing X" android:name="com.nothing.base.view.BaseApplication" android:resizeableActivity="false" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:usesCleartextTraffic="false">
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="REPLACE_WITH_YOUR_GOOGLE_MAPS_KEY"/>
+        <meta-data android:name="com.baidu.lbsapi.API_KEY" android:value="REPLACE_WITH_YOUR_BAIDU_LBS_KEY"/>
+        <provider android:authorities="com.jusdots.watermelon.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|uiMode" android:hardwareAccelerated="true" android:name="io.flutter.embedding.android.FlutterActivity" android:theme="@style/LaunchTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|uiMode" android:hardwareAccelerated="true" android:name="io.flutter.embedding.android.FlutterFragmentActivity" android:theme="@style/LaunchTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.jusdots.watermelon.host.MainActivity" android:screenOrientation="portrait" android:theme="@style/LaunchTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.jusdots.watermelon.action.START_APP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="com.jusdots.watermelon.host.OSMainActivity" android:screenOrientation="portrait" android:theme="@style/LaunchTheme" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="io.flutter.app.android.SplashScreenUntilFirstFrame" android:value="true"/>
+            <intent-filter>
+                <action android:name="com.jusdots.watermelon.action.OS_START_APP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="net.openid.appauth.RedirectUriReceiverActivity" android:theme="@style/LaunchTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="thirdauth.cmf.nothing.tech" android:path="/auth-callback" android:scheme="nothingx-wearable-strava"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="flutterEmbedding" android:value="2"/>
+        <meta-data android:name="flutterProjectType" android:value="module"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/notification_icon"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/nt_F0F2F2_06080A"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMsgService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.jusdots.watermelon.authority.APP_CARD.ear_widget" android:enabled="true" android:exported="true" android:name="com.nothing.smart.widgets.nothing.NothingEarWidgetProvider">
+            <intent-filter>
+                <action android:name="android.nothing.action.APPCARD_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="com.nothing.card" android:resource="@xml/nothing_ear_widget_config"/>
+        </provider>
+        <provider android:authorities="com.jusdots.watermelon.device.provider" android:exported="true" android:name="com.nothing.os.device.provider.ModelIdContentProvider" android:readPermission="com.nothing.os.device.provider.permission.READ_DATABASE"/>
+        <activity android:exported="true" android:name="com.nothing.smart.widgets.nothing.NothingEarWidgetConfigActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device">
+            <intent-filter>
+                <action android:name="com.nothing.action.APPWIDGET_CONFIGURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="nothing.select.device.ACTION"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="true" android:name="com.nothing.smart.widgets.news.AiNewsWidgets">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/news_widgets_info"/>
+        </receiver>
+        <activity android:exported="true" android:name="com.nothing.smart.widgets.news.NewsConfigActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.nothing.smart.widgets.config.EarWidgetsConfigActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="true" android:name="com.nothing.smart.widgets.EarWidgets">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/ear_widgets_info"/>
+        </receiver>
+        <meta-data android:name="com.nothing.widget.support_widget_battery_status" android:value="1"/>
+        <meta-data android:name="support_call_gpt" android:value="1"/>
+        <meta-data android:name="support_watch" android:value="1"/>
+        <meta-data android:name="firebase_messaging_auto_init_enabled" android:value="false"/>
+        <provider android:authorities="com.jusdots.watermelon.gpt.provider" android:enabled="true" android:exported="true" android:name="com.nothing.os.device.provider.GptContentProvider" android:readPermission="com.nothing.nothingx.permission.PROVIDER_GPT.READ" android:writePermission="com.nothing.nothingx.permission.PROVIDER_GPT.WRITE"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="layoutDirection|locale|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.nothing.os.device.bluetooth.ProxyBluetoothDetailActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.SubSettings" android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <intent-filter>
+                <action android:name="com.nothing.os.device.intent.action.BLUETOOTH_DETAIL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:exported="true" android:name="com.nothing.os.device.xservice.XViewService" android:permission="com.nothing.xservice.permission.PROVIDER_XVIEW_DATA">
+            <intent-filter>
+                <action android:name="com.nothing.xService.BIND_SERVICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.jusdots.watermelon.ui.event.provider.authority" android:enabled="true" android:exported="true" android:name="com.nothing.os.device.xservice.XViewProvider"/>
+        <service android:enabled="true" android:exported="true" android:name="com.nothing.os.device.DeviceControlService">
+            <intent-filter>
+                <action android:name="com.nothing.os.device.intent.action.BIND_DEVICE_SERVICE"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.nothing.earbase.os.control.OsControlActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.earbase.os.control.ControlOperationActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:exported="false" android:name="com.nothing.os.device.earpods.AirpodsSelectModelActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device">
+            <intent-filter>
+                <action android:name="com.nothing.experimental.action.FEATURE"/>
+            </intent-filter>
+            <meta-data android:name="com.nothing.experimental.preference.type" android:value="SwitchPreference"/>
+            <meta-data android:name="com.nothing.experimental.preference.order" android:value="2"/>
+            <meta-data android:name="com.nothing.experimental.preference.icon" android:resource="@drawable/ic_exp_airpods_support"/>
+            <meta-data android:name="com.nothing.experimental.preference.title" android:resource="@string/exp_airpods_support_title"/>
+            <meta-data android:name="com.nothing.experimental.preference.summary" android:resource="@string/exp_airpods_support_summary"/>
+            <meta-data android:name="com.nothing.experimental.switchPreference.settingsKey" android:value="nt_airpods_switch"/>
+            <meta-data android:name="com.nothing.experimental.switchPreference.defaultValue" android:value="0"/>
+        </activity>
+        <activity android:name="com.nothing.espeon.ota.FirmwareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.espeon.ota.os.OsFirmwareActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.espeon.equalizer.EqualizerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.espeon.control.ControlActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.espeon.control.ControlOperationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.espeon.control.ControlCaseOperationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.espeon.control.os.EspeonControlActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.espeon.control.os.EspeonControlOperationActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.espeon.control.os.EspeonCaseControlOperationActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.espeon.equalizer.os.EspeonEqualizerActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:launchMode="singleTask" android:name="com.nothing.ear.twos.ota.FirmwareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.ear.twos.control.ControlActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.ear.twos.control.ControlOperationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.ear.twos.equalizer.EqualizerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:launchMode="singleTop" android:name="io.mimi.sdk.profile.MimiProfileActivity" android:screenOrientation="portrait" android:theme="@style/MyMimiTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="io.mimi.sdk.testflow.activity.TestFlowActivity" android:screenOrientation="portrait" android:theme="@style/MyMimiTheme15V"/>
+        <activity android:name="com.nothing.ear.twos.ota.os.OsFirmwareActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.twos.control.os.EarTwosControlActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.twos.control.os.EarTwosControlOperationActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.twos.equalizer.os.EarTwosEqualizerActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:launchMode="singleTask" android:name="com.nothing.ear.two.ota.FirmwareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.ear.two.control.ControlActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.ear.two.control.ControlOperationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.ear.two.equalizer.EqualizerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.ear.two.mimi.MimiSdkActivity" android:screenOrientation="portrait" android:theme="@style/MyMimiTheme"/>
+        <activity android:name="com.nothing.ear.two.mimi.os.PersonalisedSoundActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.two.ota.os.OsFirmwareActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.two.control.os.EarTwoControlActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.two.control.os.EarTwoControlOperationActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.two.equalizer.os.EarTwoEqualizerActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:launchMode="singleTask" android:name="com.nothing.ear.stick.ota.FirmwareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.ear.stick.ota.os.OsFirmwareActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.ear.stick.equalizer.EqualizerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.ear.stick.control.ControlActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.ear.stick.control.ControlOperationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.ear.stick.control.os.EarStickControlActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.ear.stick.control.os.EarStickControlOperationActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.stick.equalizer.os.EarStickEqualizerActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.one.ota.FirmwareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.ear.one.equalizer.EqualizerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.ear.one.ota.os.OsFirmwareActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.ear.one.control.ControlActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.ear.one.control.ControlOperationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.ear.one.control.os.EarOneControlActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.one.control.os.EarOneControlOperationActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.one.control.os.EarOneEqualizerActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:launchMode="singleTask" android:name="com.nothing.ear.color.ota.FirmwareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.ear.color.control.ControlActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.ear.color.control.ControlOperationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.ear.color.equalizer.EqualizerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.ear.color.ota.os.OsFirmwareActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.color.control.os.EarColorControlActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.color.control.os.EarColorControlOperationActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.color.equalizer.os.EarColorEqualizerActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.donphan.ota.FirmwareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.donphan.ota.os.OsFirmwareActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.donphan.equalizer.EqualizerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.donphan.control.ControlActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.donphan.control.ControlOperationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.donphan.control.os.DonphanControlActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.donphan.control.os.DonphanControlOperationActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.donphan.equalizer.os.DonphanEqualizerActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.crobat.ota.FirmwareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.crobat.ota.os.OsFirmwareActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.os.device.bluetooth.components.bassboost.os.view.UltraBassActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.crobat.equalizer.EqualizerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.crobat.control.ControlActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.crobat.control.ControlOperationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.crobat.control.os.CrobatControlActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.crobat.control.os.CrobatControlOperationActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.crobat.equalizer.os.CrobatEqualizerActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.corsola.ota.FirmwareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.corsola.ota.os.OsFirmwareActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.corsola.equalizer.EqualizerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.corsola.control.ControlActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.corsola.control.ControlOperationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.corsola.control.os.CorsolaControlActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.corsola.control.os.CorsolaControlOperationActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.corsola.equalizer.os.CorsolaEqualizerActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <provider android:authorities="com.jusdots.watermelon.database" android:exported="true" android:multiprocess="true" android:name="com.nothing.database.dao.WidgetContentProvider"/>
+        <provider android:authorities="com.jusdots.watermelon.old.database" android:exported="true" android:multiprocess="true" android:name="com.nothing.database.old.OldWidgetContentProvider"/>
+        <activity android:exported="false" android:name="com.nothing.base.view.WebActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home">
+            <intent-filter>
+                <action android:name="com.nothing.util.action.WEBVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.jusdots.watermelon.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider"/>
+        </provider>
+        <service android:exported="false" android:name="com.nothing.event.log.service.FetchBuriedLogService"/>
+        <activity android:name="com.nothing.event.log.fetch.FeedBackBuriedLogActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <service android:exported="true" android:foregroundServiceType="connectedDevice" android:name="com.nothing.ota.service.DownloadService" android:permission="com.nothing.ota.service.DOWNLOAD_SERVICE"/>
+        <service android:exported="true" android:name="com.nothing.earbase.ota.slice.OTASliceService" android:permission="com.nothing.ota.service.OTA_SLICE_SERVICE"/>
+        <activity android:name="com.nothing.earbase.ota.OsFirmwareResultActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.nothing.earbase.equalizer.activity.BaseEqualiserActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.journeyapps.barcodescanner.ScanActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.earbase.os.error.NotSupportActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.earbase.os.equalizer.OsEqualizerActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.elekid.ota.FirmwareActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.nothing.elekid.ota.os.OsFirmwareActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.elekid.equalizer.EqualizerActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.elekid.control.ControlActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.elekid.control.ControlOperationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.elekid.control.RadioSettingActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:launchMode="singleTask" android:name="com.nothing.ear.flaffy.ota.FirmwareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.forretress.core.equalizer.os.ForretressEqualizerActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.forretress.core.equalizer.EqualizerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.ear.flaffy.control.ControlActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.ear.flaffy.control.ControlOperationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.ear.flaffy.equalizer.EqualizerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.ear.flaffy.ota.os.OsFirmwareActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.flaffy.control.os.FlaffyControlActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.flaffy.control.os.FlaffyControlOperationActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.ear.flaffy.equalizer.os.FlaffyEqualizerActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" android:name="com.nothing.feedback.FeedBackActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home" android:windowSoftInputMode="adjustPan|stateVisible"/>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice" android:name="com.nothing.feedback.service.FetchLogService" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.debug.tools.EarDebugToolActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.debug.ota.local.LocalFirmwareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.debug.advance.AdvanceEqToolActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.debug.curve.touch.TouchDebugActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.debug.curve.pressure.PressureDebugActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.apple.android.sdk.authentication.SDKUriHandlerActivity" android:screenOrientation="portrait" android:theme="@style/MusicKitAuthTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.jusdots.watermelon" android:pathPattern="/authenticateresult.*" android:scheme="musicsdk"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.girafarig.equalizer.EqualizerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.girafarig.control.ControlActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.girafarig.control.ControlOperationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.girafarig.control.os.GirafarigControlActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.girafarig.control.os.GirafarigControlOperationActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.girafarig.equalizer.os.GirafarigEqualizerActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.gligar.equalizer.EqualizerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.gligar.control.ControlActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.gligar.control.ControlOperationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:name="com.nothing.gligar.control.os.GligarControlActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.gligar.control.os.GligarControlOperationActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <activity android:name="com.nothing.gligar.equalizer.os.GligarEqualizerActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.settings.root" android:theme="@style/Theme.Smart.Device"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:foregroundServiceType="connectedDevice|dataSync" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTask" android:name="com.nothing.earbase.essential.AudioRecordActivity" android:noHistory="true" android:showWhenLocked="true" android:theme="@style/Theme.EssentialRecorder">
+            <intent-filter>
+                <action android:name="com.nothing.os.action.CALL_RECORD_UI"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.jusdots.watermelon.utilcode.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.nothing.base.fileprovider.BlankjUtilsFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/util_code_provider_paths"/>
+        </provider>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.earbase.unknown.UnknownEqualizerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.earbase.unknown.UnknownBaseEqualiserActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Smart.Home"/>
+        <service android:enabled="false" android:exported="true" android:icon="@drawable/ear_walkie_talkie_icon" android:label="@string/ear_walkie_talkie" android:name="com.nothing.supermic.WalkTalkTitleService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice|dataSync" android:name="com.nothing.walktalk.WalkieTalkieService"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:hardwareAccelerated="true" android:name="com.nothing.earbase.equalizer.EQFlutterActivity" android:screenOrientation="portrait" android:theme="@style/EQLaunchTheme" android:windowSoftInputMode="adjustResize"/>
+        <meta-data android:name="io.flutter.embedding.android.EnableImpeller" android:value="false"/>
+        <activity android:name="com.yalantis.ucrop.UCropActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ImageCropperFix"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.nothing.nt_lifecycle.receiver.KeepAliveReceiver">
+            <intent-filter>
+                <action android:name="com.jusdots.watermelon.ACTION_WAKE_UP"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:foregroundServiceType="connectedDevice" android:name="com.nothing.nt_lifecycle.service.BluetoothDaemonService"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.nothing.foreground.service.RebootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name="com.nothing.foreground.service.RestartReceiver"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.nt_route.TestActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:name="com.nothing.nt_route.FlutterOtherActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.nothing.nt_sync.TestSyncActivity"/>
+        <activity android:name="com.nothing.nt_sync.NewEngineActivity"/>
+        <service android:enabled="true" android:exported="true" android:foregroundServiceType="dataSync|mediaPlayback|mediaProjection" android:label="@string/notificationName" android:name="com.nothing.nt_ble.notify.NothingNotificationService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="true" android:name="com.nothing.nt_permission.PermissionsRationaleActivity" android:theme="@style/TransparentActivityTheme">
+            <intent-filter>
+                <action android:name="androidx.health.ACTION_SHOW_PERMISSIONS_RATIONALE"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:name="com.nothing.nt_permission.ViewPermissionUsageActivity" android:permission="android.permission.START_VIEW_PERMISSION_USAGE" android:targetActivity="com.nothing.nt_permission.PermissionsRationaleActivity" android:theme="@style/TransparentActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW_PERMISSION_USAGE"/>
+                <category android:name="android.intent.category.HEALTH_PERMISSIONS"/>
+            </intent-filter>
+        </activity-alias>
+        <receiver android:exported="true" android:name="com.nothing.link.bluetooth.sdk.connect.bt.BtReceiver">
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.ACL_CONNECTED"/>
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED"/>
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECT_REQUESTED"/>
+                <action android:name="android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"/>
+                <action android:name="android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"/>
+                <action android:name="android.bluetooth.action.LE_AUDIO_CONNECTION_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="true" android:name="com.nothing.nt_sync_health.StravaRedirectUriReceiverActivity" android:theme="@style/LaunchTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="thirdauth.cmf.nothing.tech" android:path="/auth-callback" android:scheme="nothingx-app-wearable-strava"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.jusdots.watermelon.ntwidget.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.nothing.xview.cardclient.WidgetFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/ntwidget_fileprovider"/>
+            <meta-data android:name="nothing.widget.WHITELIST_CALLERS" android:value="@string/whitelist_callers"/>
+        </provider>
+        <provider android:authorities="com.jusdots.watermelon.fileProvider.com.crazecoder.openfile" android:exported="false" android:grantUriPermissions="true" android:name="com.crazecoder.openfile.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
+        </provider>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTask" android:name="net.openid.appauth.AuthorizationManagementActivity" android:theme="@style/Theme.AppCompat.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.blankj.utilcode.util.UtilsTransActivity" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <service android:exported="false" android:name="com.blankj.utilcode.util.MessengerUtils$ServerService">
+            <intent-filter>
+                <action android:name="com.jusdots.watermelon.messenger"/>
+            </intent-filter>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:authorities="com.jusdots.watermelon.mlkitinitprovider" android:exported="false" android:initOrder="99" android:name="com.google.mlkit.common.internal.MlKitInitProvider"/>
+        <provider android:authorities="com.jusdots.watermelon.flutter.share_provider" android:exported="false" android:grantUriPermissions="true" android:name="dev.fluttercommunity.plus.share.ShareFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/flutter_share_file_paths"/>
+        </provider>
+        <receiver android:exported="false" android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent">
+            <intent-filter>
+                <action android:name="EXTRA_CHOSEN_COMPONENT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="dev.fluttercommunity.plus.share.ShareCustomActionReceiver"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="dev.fluttercommunity.plus.share.ShareCustomActionActivity" android:noHistory="true" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="audio/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="audio/wav"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/octet-stream"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+        </activity>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <service android:enabled="true" android:exported="false" android:foregroundServiceType="location" android:name="com.baseflow.geolocator.GeolocatorLocationService"/>
+        <activity android:exported="false" android:name="io.flutter.plugins.urllauncher.WebViewActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.jusdots.watermelon.ntwidget.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.nothing.cardclient.WidgetFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/ntwidget_fileprovider"/>
+            <meta-data android:name="nothing.widget.WHITELIST_CALLERS" android:value="@string/whitelist_callers"/>
+        </provider>
+        <provider android:authorities="com.jusdots.watermelon.ntwidget.filepermissionprovider" android:enabled="true" android:exported="true" android:name="com.nothing.cardclient.FilePermissionProvider" android:permission="com.nothing.permission.BIND_CARD_SERVICE"/>
+        <service android:enabled="false" android:exported="true" android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService">
+            <meta-data android:name="com.google.android.play.core.assetpacks.versionCode" android:value="20202"/>
+        </service>
+        <service android:enabled="false" android:exported="false" android:foregroundServiceType="dataSync" android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"/>
+        <property android:name="android.adservices.AD_SERVICES_CONFIG" android:resource="@xml/ga_ad_services_config"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.firebase.sessions.SessionLifecycleService"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <service android:enabled="false" android:exported="false" android:name="androidx.camera.core.impl.MetadataHolderService">
+            <meta-data android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER" android:value="androidx.camera.camera2.Camera2Config$DefaultProvider"/>
+        </service>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="true" android:name="androidx.health.platform.client.impl.sdkservice.HealthDataSdkService">
+            <intent-filter>
+                <action android:name="androidx.health.platform.client.ACTION_BIND_SDK_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <uses-library android:name="android.ext.adservices" android:required="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.spotify.sdk.android.auth.LoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="thirdauth.nothing.tech/auth-callback" android:scheme="nothing-earphone-spotify"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="nothingx_call_news_supported" android:value="1"/>
+        <service android:exported="false" android:name="com.nothing.news_service.playservice.AudioDownloadService">
+            <intent-filter>
+                <action android:name="androidx.media3.exoplayer.downloadService.action.RESTART"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:foregroundServiceType="mediaPlayback" android:name="com.nothing.news_service.playservice.NewsPodcastPlaybackService" android:permission="com.nothing.permission.BIND_CARD_SERVICE">
+            <intent-filter>
+                <action android:name="androidx.media3.session.MediaSessionService"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.nothing.hearthstone.action.PLAY_PODCAST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.apple.android.sdk.authentication.StartAuthenticationActivity" android:screenOrientation="portrait" android:theme="@style/MusicKitAuthTheme"/>
+        <service android:exported="false" android:label="Reporting Service" android:name="com.apple.android.music.playback.reporting.ReportingService"/>
+        <service android:exported="false" android:label="Reporting Service" android:name="com.apple.android.music.playback.reporting.ReportingServiceApi26" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <activity android:clearTaskOnLaunch="true" android:name="com.journeyapps.barcodescanner.CaptureActivity" android:screenOrientation="sensorLandscape" android:stateNotNeeded="true" android:theme="@style/zxing_CaptureTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="3"/>
+    </application>
+</manifest>

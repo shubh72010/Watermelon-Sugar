@@ -1,0 +1,542 @@
+[
+  {
+    "name": "Messages",
+    "packageName":"com.apple.MobileSMS",
+    "command": 0,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Wechat",
+    "packageName":"com.tencent.xin",
+    "command": 1,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "QQ",
+    "packageName":"com.tencent.mqq",
+    "command": 2,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Alipay",
+    "packageName":"com.alipay.iphoneclient",
+    "command": 4,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "DingTalk",
+    "packageName":"com.alibaba.DingTalk",
+    "command": 5,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "TaoBao",
+    "packageName":"com.taobao.taobao4iphone",
+    "command": 6,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Nothing X",
+    "packageName":"com.jusdots.watermelon",
+    "command": 7,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "WhatsApp",
+    "packageName":"net.whatsapp.WhatsApp",
+    "command": 8,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Snapchat",
+    "packageName":"com.toyopagroup.picaboo",
+    "command": 9,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "WhatsApp Business",
+    "packageName": "net.whatsapp.WhatsAppSMB",
+    "command": 10,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Truecaller",
+    "packageName":"com.truecaller",
+    "command": 11,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Telegram",
+    "packageName":"org.telegram.messenger",
+    "command": 12,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Messenger",
+    "packageName":"com.facebook.Messenger",
+    "command": 13,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "IMO",
+    "packageName":"com.imointernationalmemon.ios",
+    "command": 14,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "CallApp",
+    "packageName":"com.callapp.contacts",
+    "command": 15,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "LiveTalk",
+    "packageName":"com.bingo.livetalk",
+    "command": 16,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Facebook",
+    "packageName":"com.facebook.Facebook",
+    "command": 17,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Instagram",
+    "packageName":"com.burbn.instagram",
+    "command": 18,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Tiktok",
+    "packageName":"com.zhiliaoapp.musically",
+    "command": 19,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Line",
+    "packageName":"jp.naver.line",
+    "command": 20,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Discord",
+    "packageName":"com.discord",
+    "command": 21,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Google Voice",
+    "packageName":"com.google.android.apps.googlevoice",
+    "command": 22,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Skype",
+    "packageName":"com.skype.skype",
+    "command": 23,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Twitter",
+    "packageName":"com.atebits.Tweetie2",
+    "command": 25,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Viber",
+    "packageName":"com.viber",
+    "command": 26,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Gmail",
+    "packageName":"com.google.Gmail",
+    "command": 27,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Mail",
+    "packageName":"com.apple.mobilemail",
+    "command": 28,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Outlook",
+    "packageName":"com.microsoft.Office.Outlook",
+    "command": 29,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Zalo",
+    "packageName":"com.zing.zalo",
+    "command": 30,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "YouTube",
+    "packageName":"com.google.ios.youtube",
+    "command": 31,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "KaoKao Talk",
+    "packageName":"com.kakao.talk",
+    "command": 32,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "VKontakte",
+    "packageName":"com.vk.vkclient",
+    "command": 33,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "OK",
+    "packageName":"ru.ok.ios.Odnoklassniki",
+    "command": 34,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Calendar",
+    "packageName":"com.apple.mobilecal",
+    "command": 36,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Linkedin",
+    "packageName":"com.linkedin.LinkedIn",
+    "command": 38,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Tumblr",
+    "packageName":"com.tumblr.tumblr",
+    "command": 39,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Pinterest",
+    "packageName":"com.pinterest",
+    "command": 40,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Health",
+    "packageName":"com.apple.Health",
+    "command": 41,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "WPS Office",
+    "packageName":"com.zhjw.office",
+    "command": 43,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "QQ Mail",
+    "packageName":"com.tencent.qqmail",
+    "command": 44,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Flickr",
+    "packageName":"com.yahoo.flickr",
+    "command": 45,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Safari",
+    "packageName": "com.apple.mobilesafari",
+    "command": 46,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Apple Books",
+    "packageName": "com.apple.BKReader",
+    "command": 47,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Watch",
+    "packageName": "com.apple.Watch",
+    "command": 48,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Contacts",
+    "packageName": "com.apple.MobileAddressBook",
+    "command": 49,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Tips",
+    "packageName": "com.apple.Tips",
+    "command": 50,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Translate",
+    "packageName": "com.apple.Translate",
+    "command": 51,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Journal",
+    "packageName": "com.apple.Journal",
+    "command": 52,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "TestFlight",
+    "packageName": "com.apple.TestFlight",
+    "command": 53,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Settings",
+    "packageName": "com.apple.Preferences",
+    "command": 54,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Apple Maps",
+    "packageName": "com.apple.Maps",
+    "command": 55,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Fitness",
+    "packageName": "com.apple.Fitness",
+    "command": 56,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Clock",
+    "packageName": "com.apple.clock",
+    "command": 57,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Notes",
+    "packageName": "com.apple.Notes",
+    "command": 58,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Reminder",
+    "packageName":"com.apple.reminders",
+    "command": 59,
+    "otherApp": 0,
+    "isOn": 1
+  },
+  {
+    "name": "Apple News",
+    "packageName": "com.apple.news",
+    "command": 60,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Apple Music",
+    "packageName": "com.apple.Music",
+    "command": 61,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "App Store",
+    "packageName": "com.apple.AppStore",
+    "command": 62,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "iTunes Store",
+    "packageName": "com.apple.itunesstore",
+    "command": 63,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Podcasts",
+    "packageName": "com.apple.podcasts",
+    "command": 64,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Files",
+    "packageName": "com.apple.DocumentsApp",
+    "command": 65,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "FaceTime",
+    "packageName": "com.apple.facetime",
+    "command": 66,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Voice Memos",
+    "packageName": "com.apple.VoiceMemos",
+    "command": 67,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Find My",
+    "packageName": "com.apple.findmy",
+    "command": 68,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Weather",
+    "packageName": "com.apple.weather",
+    "command": 69,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Stocks",
+    "packageName": "com.apple.stocks",
+    "command": 70,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "iCloud Drive",
+    "packageName": "com.apple.iCloudDrive",
+    "command": 71,
+    "otherApp": 0,
+    "isOn": 0
+  },
+
+  {
+    "name": "Apple TV",
+    "packageName": "com.apple.TV",
+    "command": 72,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Apple Support",
+    "packageName": "com.apple.apple-support",
+    "command": 73,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Home",
+    "packageName": "com.apple.Home",
+    "command": 74,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Teams",
+    "packageName": "com.microsoft.skype.teams",
+    "command": 77,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "YouTube music",
+    "packageName": "com.google.ios.youtubemusic",
+    "command": 78,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Spotify",
+    "packageName": "com.spotify.client",
+    "command": 79,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Threads",
+    "packageName": "com.burbn.barcelona",
+    "command": 80,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Lark",
+    "packageName": "com.larksuite.lark",
+    "command": 81,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Phone",
+    "packageName": "com.apple.mobilephone",
+    "command": 254,
+    "otherApp": 0,
+    "isOn": 0
+  },
+  {
+    "name": "Other",
+    "packageName":"com.others",
+    "command": 255,
+    "otherApp": 0,
+    "isOn": 1
+  }
+]

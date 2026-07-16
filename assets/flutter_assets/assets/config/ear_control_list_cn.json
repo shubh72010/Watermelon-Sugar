@@ -1,0 +1,1645 @@
+[
+  {
+    "id": 1,
+    "skuId": 1874042712911269904,
+    "modelId": "B186",
+    "colorId": "01",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438366919_Elekid%20-%20Black%20(1).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367083_Black.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367123_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367164_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367205_Black_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367264_31headphone_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367302_32headphone_hold_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367340_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367377_Black_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367434_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367472_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "skuId": 1874042712911269904,
+    "modelId": "B186",
+    "colorId": "02",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794571859525633/1769480462309_Elekid%20-%20White%20(1).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794571859525633/1769480462436_White.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367123_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367164_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794571859525633/1769480462570_White_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367264_31headphone_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367302_32headphone_hold_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367340_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794571859525633/1769480462570_White_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367434_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367472_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "skuId": 1874042712911269904,
+    "modelId": "B186",
+    "colorId": "08",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794814185439234/1769480640829_Elekid%20-%20Yellow%20(1).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794814185439234/1769480640943_Yellow.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367123_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367164_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794814185439234/1769480641066_Yellow_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367264_31headphone_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367302_32headphone_hold_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367340_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794814185439234/1769480641066_Yellow_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367434_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367472_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "skuId": 1874042712911269904,
+    "modelId": "B186",
+    "colorId": "10",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015795166469226497/1769480727656_Elekid%20-%20Pink%20(2).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015795166469226497/1769480727805_Pink.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367123_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367164_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015795166469226497/1769480727923_Pink_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367264_31headphone_single_press.json",            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794814185439234/1769594800105_32.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367340_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015795166469226497/1769480727923_Pink_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367434_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367472_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "id": 1,
+    "skuId": 1874042712911269904,
+    "modelId": "B198",
+    "colorId": "01",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438366919_Elekid%20-%20Black%20(1).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367083_Black.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367123_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367164_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367205_Black_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367264_31headphone_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367302_32headphone_hold_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367340_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367377_Black_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367434_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367472_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "skuId": 1874042712911269904,
+    "modelId": "B198",
+    "colorId": "02",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794571859525633/1769480462309_Elekid%20-%20White%20(1).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794571859525633/1769480462436_White.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367123_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367164_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794571859525633/1769480462570_White_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367264_31headphone_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367302_32headphone_hold_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367340_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794571859525633/1769480462570_White_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367434_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367472_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "skuId": 1874042712911269904,
+    "modelId": "B198",
+    "colorId": "08",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794814185439234/1769480640829_Elekid%20-%20Yellow%20(1).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794814185439234/1769480640943_Yellow.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367123_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367164_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794814185439234/1769480641066_Yellow_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794814185439234/1769594800022_31.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794814185439234/1769594800105_32.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367340_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015794814185439234/1769480641066_Yellow_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367434_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367472_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "skuId": 1874042712911269904,
+    "modelId": "B198",
+    "colorId": "10",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015795166469226497/1769480727656_Elekid%20-%20Pink%20(2).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015795166469226497/1769480727805_Pink.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367123_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367164_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015795166469226497/1769480727923_Pink_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367264_31headphone_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367302_32headphone_hold_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367340_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015795166469226497/1769480727923_Pink_副本.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367434_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2015738478424817666/1769438367472_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "skuId": 1874042712911269904,
+    "modelId": "B174",
+    "colorId": "03",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2046784192668033025/1777349076287_Bule%20left.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2046784192668033025/1776826400666_234_2_2.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2046784192668033025/1776826400704_234_3_2.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2046784192668033025/1776826400740_234_7_2.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2046784192668033025/1776826400773_234_9_2.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2046784192668033025/1777349076570_Bule%20right.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2046784192668033025/1776826400872_234_2_3.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2046784192668033025/1776826400904_234_3_3.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2046784192668033025/1776826400934_234_7_3.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.s3.cn-north-1.amazonaws.com.cn/control/sku_2046784192668033025/1776826400972_234_9_3.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "skuId": 2062078494080966658,
+    "modelId": "B190",
+    "colorId": "01",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 5,
+        "imageBrightFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843285_blackL@3x%20(7).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843573_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843595_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843619_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843669_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843691_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843573_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843595_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843619_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843669_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843691_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      },
+      {
+        "id": 2,
+        "controlId": 5,
+        "imageBrightFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843714_blackR@3x%20(12).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843750_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843772_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843793_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843814_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843835_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843750_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843772_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843793_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843814_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078494080966658/1781091843835_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "skuId": 2062078127058395137,
+    "modelId": "B190",
+    "colorId": "02",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 6,
+        "imageBrightFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917436_whiteL@3x%20(10).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917491_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917511_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917536_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917560_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917583_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917491_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917511_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917536_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917560_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917583_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      },
+      {
+        "id": 2,
+        "controlId": 6,
+        "imageBrightFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917608_whiteR@3x%20(9).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917664_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917684_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917710_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917743_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917762_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917664_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917684_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917710_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917743_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062078127058395137/1781091917762_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "skuId": 2062079340537651202,
+    "modelId": "B190",
+    "colorId": "08",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 7,
+        "imageBrightFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713684_yellowL@3x%20(10).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713769_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713796_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713820_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713846_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713882_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713769_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713796_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713820_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713846_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713882_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      },
+      {
+        "id": 2,
+        "controlId": 7,
+        "imageBrightFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713921_yellowR@3x%20(9).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713972_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713996_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091714019_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091714043_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091714076_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713972_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091713996_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091714019_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091714043_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079340537651202/1781091714076_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "skuId": 2062079524277526530,
+    "modelId": "B190",
+    "colorId": "10",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 8,
+        "imageBrightFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091777944_pinkL@3x%20(10).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091777995_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778018_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778049_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778073_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778096_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091777995_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778018_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778049_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778073_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778096_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      },
+      {
+        "id": 2,
+        "controlId": 8,
+        "imageBrightFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778125_pinkR@3x%20(10).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778172_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778196_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778221_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778243_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778270_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778172_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778196_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778221_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778243_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://platform-watch-china.cdn.bcebos.com/control/sku_2062079524277526530/1781091778270_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      }
+    ]
+  }
+]

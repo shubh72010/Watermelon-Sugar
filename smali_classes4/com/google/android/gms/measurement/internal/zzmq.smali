@@ -1,0 +1,33 @@
+.class final Lcom/google/android/gms/measurement/internal/zzmq;
+.super Lcom/google/android/gms/measurement/internal/zzav;
+.source "com.google.android.gms:play-services-measurement-impl@@22.0.1"
+
+
+# instance fields
+.field private final synthetic zza:Lcom/google/android/gms/measurement/internal/zzmr;
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/gms/measurement/internal/zzmr;Lcom/google/android/gms/measurement/internal/zzil;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzmq;->zza:Lcom/google/android/gms/measurement/internal/zzmr;
+
+    invoke-direct {p0, p2}, Lcom/google/android/gms/measurement/internal/zzav;-><init>(Lcom/google/android/gms/measurement/internal/zzil;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final zzb()V
+    .locals 1
+
+    .line 2
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzmq;->zza:Lcom/google/android/gms/measurement/internal/zzmr;
+
+    invoke-static {v0}, Lcom/google/android/gms/measurement/internal/zzmr;->zza(Lcom/google/android/gms/measurement/internal/zzmr;)V
+
+    return-void
+.end method

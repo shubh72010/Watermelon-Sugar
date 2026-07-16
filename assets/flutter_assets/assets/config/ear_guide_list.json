@@ -1,0 +1,31 @@
+[
+  {
+    "key": "Nothingtest24293",
+    "display_name": "Headphone (a)",
+    "category_id": 43233207957009,
+    "device_type": "earphone",
+    "brand": "Nothing",
+    "mode_id": "B198",
+    "label": "Nothing Headphone (a)",
+    "small_image": "https://d1zc89dd4u2mk2.cloudfront.net/device_sku/1769408702018_Elekid%20-%20Yellow.png",
+    "medium_image": "https://d1zc89dd4u2mk2.cloudfront.net/device_sku/1769408702018_Elekid%20-%20Yellow.png",
+    "large_image": "https://d1zc89dd4u2mk2.cloudfront.net/device_sku/1769408702018_Elekid%20-%20Yellow.png",
+    "image_version": 2,
+    "more_model_ids": [
+      "B186"
+    ]
+  },
+  {
+    "key": "NothingEar3a",
+    "display_name": "Ear (3a)",
+    "category_id": 7455115681041,
+    "device_type": "earphone",
+    "brand": "Nothing",
+    "mode_id": "B190",
+    "label": "",
+    "small_image": "https://d1zc89dd4u2mk2.cloudfront.net/device_sku/1780405717147_Frame%202085654224%403x.png",
+    "medium_image": "https://d1zc89dd4u2mk2.cloudfront.net/device_sku/1780405717147_Frame%202085654224%403x.png",
+    "large_image": "https://d1zc89dd4u2mk2.cloudfront.net/device_sku/1780405717147_Frame%202085654224%403x.png",
+    "image_version": 1
+  }
+]

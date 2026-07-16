@@ -1,0 +1,64 @@
+.class public Lorg/apache/tika/exception/FileTooLongException;
+.super Ljava/io/IOException;
+.source "FileTooLongException.java"
+
+
+# direct methods
+.method public constructor <init>(JJ)V
+    .locals 0
+
+    .line 33
+    invoke-static {p1, p2, p3, p4}, Lorg/apache/tika/exception/FileTooLongException;->msg(JJ)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {p0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 29
+    invoke-direct {p0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method private static msg(JJ)Ljava/lang/String;
+    .locals 2
+
+    .line 37
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "File is "
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, p0, p1}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    move-result-object p0
+
+    const-string p1, " bytes, but "
+
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object p0
+
+    invoke-virtual {p0, p2, p3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    move-result-object p0
+
+    const-string p1, " is the maximum length allowed.  You can modify maxLength via the setter on the fetcher."
+
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

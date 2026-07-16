@@ -1,0 +1,1644 @@
+[
+  {
+    "id": 26,
+    "skuId": 1874042712911269904,
+    "modelId": "B186",
+    "colorId": "01",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769409474888_Elekid%20-%20Black%20(1).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996117_Black.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996189_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996215_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996274_Black_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996333_31headphone_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996359_32headphone_hold_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996385_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996416_Black_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996451_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996478_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "skuId": 1874042712911269904,
+    "modelId": "B186",
+    "colorId": "02",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673295719432193/1769409713513_Elekid%20-%20White%20(1).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673295719432193/1769411040087_White.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996189_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996215_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673295719432193/1769411040222_White_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996333_31headphone_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996359_32headphone_hold_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996385_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673295719432193/1769411040222_White_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996451_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996478_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "skuId": 1874042712911269904,
+    "modelId": "B186",
+    "colorId": "08",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672308233469954/1769409760367_Elekid%20-%20Yellow%20(1).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672308233469954/1769411088334_Yellow.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996189_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996215_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672308233469954/1769411088492_Yellow_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015744472588550146/1769594936397_31.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015744472588550146/1769594936474_32.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996385_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672308233469954/1769411088492_Yellow_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996451_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996478_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "skuId": 1874042712911269904,
+    "modelId": "B186",
+    "colorId": "10",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672893418569730/1769409852763_Elekid%20-%20Pink%20(2).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672893418569730/1769411143001_Pink.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996189_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996215_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672893418569730/1769411143225_Pink_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996333_31headphone_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996359_32headphone_hold_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996385_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672893418569730/1769411143225_Pink_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996451_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996478_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 26,
+    "skuId": 1874042712911269904,
+    "modelId": "B198",
+    "colorId": "01",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769409474888_Elekid%20-%20Black%20(1).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996117_Black.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996189_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996215_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996274_Black_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996333_31headphone_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996359_32headphone_hold_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996385_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996416_Black_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996451_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996478_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "skuId": 1874042712911269904,
+    "modelId": "B198",
+    "colorId": "02",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673295719432193/1769409713513_Elekid%20-%20White%20(1).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673295719432193/1769411040087_White.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996189_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996215_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673295719432193/1769411040222_White_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996333_31headphone_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996359_32headphone_hold_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996385_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673295719432193/1769411040222_White_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996451_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996478_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "skuId": 1874042712911269904,
+    "modelId": "B198",
+    "colorId": "08",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672308233469954/1769409760367_Elekid%20-%20Yellow%20(1).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672308233469954/1769411088334_Yellow.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996189_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996215_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672308233469954/1769411088492_Yellow_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015744472588550146/1769594936397_31.json",            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015744472588550146/1769594936474_32.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996385_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672308233469954/1769411088492_Yellow_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996451_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996478_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "skuId": 1874042712911269904,
+    "modelId": "B198",
+    "colorId": "10",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672893418569730/1769409852763_Elekid%20-%20Pink%20(2).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672893418569730/1769411143001_Pink.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996189_21headphone_button_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996215_22headphone_long_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672893418569730/1769411143225_Pink_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996333_31headphone_single_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996359_32headphone_hold_press.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 200,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996385_33headphone_roll.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015672893418569730/1769411143225_Pink_%E5%89%AF%E6%9C%AC.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996451_41headphone_push_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2015673475056603138/1769410996478_42headphone_push_hold_paddle.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "skuId": 1874042712911269904,
+    "modelId": "B174",
+    "colorId": "03",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2046781025567981569/1777348253814_Bule%20left.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2046781025567981569/1776825884688_234_2_2.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2046781025567981569/1776825884721_234_3_2.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2046781025567981569/1776825884750_234_7_2.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2046781025567981569/1776825884780_234_9_2.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ],
+        "optionalThirdAnimationFiles": [],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true,
+        "createdTime": "2025-11-25 02:54:56",
+        "updatedTime": "2025-12-18 12:30:45"
+      },
+      {
+        "id": 2,
+        "controlId": 26,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2046781025567981569/1777348254158_Bule%20right.png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "id": 198,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2046781025567981569/1776825884859_234_2_3.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2046781025567981569/1776825884891_234_3_3.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2046781025567981569/1776825884925_234_7_3.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          },
+          {
+            "id": 199,
+            "controlId": 26,
+            "controlAttachmentId": 39,
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2046781025567981569/1776825884958_234_9_3.json",
+            "createdTime": "2025-11-25 02:54:56",
+            "updatedTime": "2025-12-18 12:30:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "skuId": 2061793025644077058,
+    "modelId": "B190",
+    "colorId": "01",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 1,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090770961_blackL@3x%20(7).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771042_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771068_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771094_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771124_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771151_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771042_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771068_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771094_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771124_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771151_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      },
+      {
+        "id": 2,
+        "controlId": 1,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771191_blackR@3x%20(12).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771225_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771251_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771276_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771303_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771351_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771225_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771251_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771276_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771303_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061793025644077058/1781090771351_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "skuId": 2061790327431536641,
+    "modelId": "B190",
+    "colorId": "02",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 2,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704727_whiteL@3x%20(10).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704798_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704824_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704849_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704879_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704906_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704798_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704824_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704849_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704879_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704906_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      },
+      {
+        "id": 2,
+        "controlId": 2,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704934_whiteR@3x%20(9).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704968_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704995_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090705018_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090705048_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090705076_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704968_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090704995_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090705018_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090705048_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061790327431536641/1781090705076_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "skuId": 2061797131804524546,
+    "modelId": "B190",
+    "colorId": "08",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 3,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090098842_yellowL@3x%20(10).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090098921_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090098945_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090098970_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090098997_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090099035_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090098921_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090098945_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090098970_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090098997_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090099035_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      },
+      {
+        "id": 2,
+        "controlId": 3,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090099062_yellowR@3x%20(9).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090099097_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090099128_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090099153_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090099181_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090099209_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090099097_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090099128_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090099153_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090099181_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061797131804524546/1781090099209_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "skuId": 2061794461048152066,
+    "modelId": "B190",
+    "colorId": "10",
+    "attachments": [
+      {
+        "id": 1,
+        "controlId": 4,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090515739_pinkL@3x%20(10).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090515825_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090515854_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090515888_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090515920_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090515945_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090515825_left_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090515854_left_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090515888_left_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090515920_left_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090515945_Jumpluff%20-%20single%20pinch%20-%20L.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      },
+      {
+        "id": 2,
+        "controlId": 4,
+        "imageBrightFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090515972_pinkR@3x%20(10).png",
+        "imageDarkFileUrl": null,
+        "optionalNothingAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090516018_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090516044_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090516071_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090516099_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090516125_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalThirdAnimationFiles": [
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 0,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090516018_right_1.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 1,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090516044_right_2.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 2,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090516071_right_3.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 3,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090516099_right_4.json"
+          },
+          {
+            "fileGroupFlag": 0,
+            "filePriority": 4,
+            "optionalFileUrl": "https://d1zc89dd4u2mk2.cloudfront.net/control/sku_2061794461048152066/1781090516125_Jumpluff%20-%20single%20pinch%20-%20R.json"
+          }
+        ],
+        "optionalDarkAnimationFiles": [],
+        "optionalThirdDarkAnimationFiles": [],
+        "priority": 0,
+        "essential": 1,
+        "isNothingPhone": true,
+        "isAndroidPhone": true,
+        "isIosPhone": true
+      }
+    ]
+  }
+]

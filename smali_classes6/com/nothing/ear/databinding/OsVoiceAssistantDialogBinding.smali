@@ -1,0 +1,305 @@
+.class public abstract Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;
+.super Landroidx/databinding/ViewDataBinding;
+.source "OsVoiceAssistantDialogBinding.java"
+
+
+# instance fields
+.field public final body:Landroid/widget/TextView;
+
+.field public final chatGpt:Landroidx/appcompat/widget/AppCompatTextView;
+
+.field public final llChatGpt:Landroid/widget/LinearLayout;
+
+.field protected mEventHandler:Lcom/nothing/earbase/os/control/OSVoiceAssistantSelectDialog;
+    .annotation runtime Landroidx/databinding/Bindable;
+    .end annotation
+.end field
+
+.field protected mItemViewModel:Lcom/nothing/earbase/control/ControlGestureViewModel;
+    .annotation runtime Landroidx/databinding/Bindable;
+    .end annotation
+.end field
+
+.field protected mViewModel:Lcom/nothing/earbase/control/ControlOperationViewModel;
+    .annotation runtime Landroidx/databinding/Bindable;
+    .end annotation
+.end field
+
+.field public final tvDefault:Landroidx/appcompat/widget/AppCompatTextView;
+
+.field public final tvTitle:Landroid/widget/TextView;
+
+
+# direct methods
+.method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/TextView;Landroidx/appcompat/widget/AppCompatTextView;Landroid/widget/LinearLayout;Landroidx/appcompat/widget/AppCompatTextView;Landroid/widget/TextView;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0,
+            0x0,
+            0x0,
+            0x0,
+            0x0,
+            0x0,
+            0x0
+        }
+        names = {
+            "_bindingComponent",
+            "_root",
+            "_localFieldCount",
+            "body",
+            "chatGpt",
+            "llChatGpt",
+            "tvDefault",
+            "tvTitle"
+        }
+    .end annotation
+
+    .line 50
+    invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
+
+    .line 51
+    iput-object p4, p0, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;->body:Landroid/widget/TextView;
+
+    .line 52
+    iput-object p5, p0, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;->chatGpt:Landroidx/appcompat/widget/AppCompatTextView;
+
+    .line 53
+    iput-object p6, p0, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;->llChatGpt:Landroid/widget/LinearLayout;
+
+    .line 54
+    iput-object p7, p0, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;->tvDefault:Landroidx/appcompat/widget/AppCompatTextView;
+
+    .line 55
+    iput-object p8, p0, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;->tvTitle:Landroid/widget/TextView;
+
+    return-void
+.end method
+
+.method public static bind(Landroid/view/View;)Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;
+    .locals 1
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "view"
+        }
+    .end annotation
+
+    .line 119
+    invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
+
+    move-result-object v0
+
+    invoke-static {p0, v0}, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;->bind(Landroid/view/View;Ljava/lang/Object;)Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bind(Landroid/view/View;Ljava/lang/Object;)Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;
+    .locals 1
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "view",
+            "component"
+        }
+    .end annotation
+
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    .line 131
+    sget v0, Lcom/nothing/ear/R$layout;->os_voice_assistant_dialog:I
+
+    invoke-static {p1, p0, v0}, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;
+
+    return-object p0
+.end method
+
+.method public static inflate(Landroid/view/LayoutInflater;)Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;
+    .locals 1
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "inflater"
+        }
+    .end annotation
+
+    .line 101
+    invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
+
+    move-result-object v0
+
+    invoke-static {p0, v0}, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;->inflate(Landroid/view/LayoutInflater;Ljava/lang/Object;)Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;
+    .locals 1
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0,
+            0x0
+        }
+        names = {
+            "inflater",
+            "root",
+            "attachToRoot"
+        }
+    .end annotation
+
+    .line 82
+    invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
+
+    move-result-object v0
+
+    invoke-static {p0, p1, p2, v0}, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;ZLjava/lang/Object;)Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;ZLjava/lang/Object;)Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;
+    .locals 1
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0,
+            0x0,
+            0x0
+        }
+        names = {
+            "inflater",
+            "root",
+            "attachToRoot",
+            "component"
+        }
+    .end annotation
+
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    .line 96
+    sget v0, Lcom/nothing/ear/R$layout;->os_voice_assistant_dialog:I
+
+    invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;
+
+    return-object p0
+.end method
+
+.method public static inflate(Landroid/view/LayoutInflater;Ljava/lang/Object;)Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;
+    .locals 3
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0,
+            0x0
+        }
+        names = {
+            "inflater",
+            "component"
+        }
+    .end annotation
+
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+
+    .line 115
+    sget v0, Lcom/nothing/ear/R$layout;->os_voice_assistant_dialog:I
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x0
+
+    invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public getEventHandler()Lcom/nothing/earbase/os/control/OSVoiceAssistantSelectDialog;
+    .locals 1
+
+    .line 76
+    iget-object v0, p0, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;->mEventHandler:Lcom/nothing/earbase/os/control/OSVoiceAssistantSelectDialog;
+
+    return-object v0
+.end method
+
+.method public getItemViewModel()Lcom/nothing/earbase/control/ControlGestureViewModel;
+    .locals 1
+
+    .line 69
+    iget-object v0, p0, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;->mItemViewModel:Lcom/nothing/earbase/control/ControlGestureViewModel;
+
+    return-object v0
+.end method
+
+.method public getViewModel()Lcom/nothing/earbase/control/ControlOperationViewModel;
+    .locals 1
+
+    .line 62
+    iget-object v0, p0, Lcom/nothing/ear/databinding/OsVoiceAssistantDialogBinding;->mViewModel:Lcom/nothing/earbase/control/ControlOperationViewModel;
+
+    return-object v0
+.end method
+
+.method public abstract setEventHandler(Lcom/nothing/earbase/os/control/OSVoiceAssistantSelectDialog;)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "eventHandler"
+        }
+    .end annotation
+.end method
+
+.method public abstract setItemViewModel(Lcom/nothing/earbase/control/ControlGestureViewModel;)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "itemViewModel"
+        }
+    .end annotation
+.end method
+
+.method public abstract setViewModel(Lcom/nothing/earbase/control/ControlOperationViewModel;)V
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "viewModel"
+        }
+    .end annotation
+.end method

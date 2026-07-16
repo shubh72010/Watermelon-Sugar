@@ -1,0 +1,36 @@
+.class public final synthetic Lio/mimi/sdk/authflow/fragment/connectdevice/PermissionDeniedDialogFragment$$ExternalSyntheticLambda1;
+.super Ljava/lang/Object;
+.source "D8$$SyntheticClass"
+
+# interfaces
+.implements Landroid/content/DialogInterface$OnClickListener;
+
+
+# instance fields
+.field public final synthetic f$0:Lio/mimi/sdk/authflow/fragment/connectdevice/PermissionDeniedDialogFragment;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lio/mimi/sdk/authflow/fragment/connectdevice/PermissionDeniedDialogFragment;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lio/mimi/sdk/authflow/fragment/connectdevice/PermissionDeniedDialogFragment$$ExternalSyntheticLambda1;->f$0:Lio/mimi/sdk/authflow/fragment/connectdevice/PermissionDeniedDialogFragment;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/content/DialogInterface;I)V
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lio/mimi/sdk/authflow/fragment/connectdevice/PermissionDeniedDialogFragment$$ExternalSyntheticLambda1;->f$0:Lio/mimi/sdk/authflow/fragment/connectdevice/PermissionDeniedDialogFragment;
+
+    invoke-static {v0, p1, p2}, Lio/mimi/sdk/authflow/fragment/connectdevice/PermissionDeniedDialogFragment;->$r8$lambda$LqQpq0utwJ-7UBwBlLRkAkmmBYg(Lio/mimi/sdk/authflow/fragment/connectdevice/PermissionDeniedDialogFragment;Landroid/content/DialogInterface;I)V
+
+    return-void
+.end method

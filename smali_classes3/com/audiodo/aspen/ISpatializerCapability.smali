@@ -1,0 +1,266 @@
+.class public Lcom/audiodo/aspen/ISpatializerCapability;
+.super Lcom/audiodo/aspen/IObservableProperty;
+.source "ISpatializerCapability.java"
+
+
+# instance fields
+.field private transient swigCMemOwnDerived:Z
+
+.field private transient swigCPtr:J
+
+
+# direct methods
+.method protected constructor <init>(JZ)V
+    .locals 3
+
+    .line 26
+    invoke-static {p1, p2}, Lcom/audiodo/aspen/AspenJNI;->ISpatializerCapability_SWIGSmartPtrUpcast(J)J
+
+    move-result-wide v0
+
+    const/4 v2, 0x1
+
+    invoke-direct {p0, v0, v1, v2}, Lcom/audiodo/aspen/IObservableProperty;-><init>(JZ)V
+
+    .line 27
+    iput-boolean p3, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCMemOwnDerived:Z
+
+    .line 28
+    iput-wide p1, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCPtr:J
+
+    return-void
+.end method
+
+.method protected static getCPtr(Lcom/audiodo/aspen/ISpatializerCapability;)J
+    .locals 2
+
+    if-nez p0, :cond_0
+
+    const-wide/16 v0, 0x0
+
+    return-wide v0
+
+    .line 32
+    :cond_0
+    iget-wide v0, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCPtr:J
+
+    return-wide v0
+.end method
+
+.method public static getObservableEventActivateConfirmation()Ljava/lang/String;
+    .locals 1
+
+    .line 147
+    invoke-static {}, Lcom/audiodo/aspen/AspenJNI;->ISpatializerCapability_getObservableEventActivateConfirmation()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static getObservableEventDeactivateConfirmation()Ljava/lang/String;
+    .locals 1
+
+    .line 159
+    invoke-static {}, Lcom/audiodo/aspen/AspenJNI;->ISpatializerCapability_getObservableEventDeactivateConfirmation()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static getObservableEventSetConfirmation()Ljava/lang/String;
+    .locals 1
+
+    .line 171
+    invoke-static {}, Lcom/audiodo/aspen/AspenJNI;->ISpatializerCapability_getObservableEventSetConfirmation()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static getObservableEventSyncComplete()Ljava/lang/String;
+    .locals 1
+
+    .line 135
+    invoke-static {}, Lcom/audiodo/aspen/AspenJNI;->ISpatializerCapability_getObservableEventSyncComplete()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public activate()V
+    .locals 2
+
+    .line 64
+    iget-wide v0, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCPtr:J
+
+    invoke-static {v0, v1, p0}, Lcom/audiodo/aspen/AspenJNI;->ISpatializerCapability_activate(JLcom/audiodo/aspen/ISpatializerCapability;)V
+
+    return-void
+.end method
+
+.method public deactivate()V
+    .locals 2
+
+    .line 75
+    iget-wide v0, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCPtr:J
+
+    invoke-static {v0, v1, p0}, Lcom/audiodo/aspen/AspenJNI;->ISpatializerCapability_deactivate(JLcom/audiodo/aspen/ISpatializerCapability;)V
+
+    return-void
+.end method
+
+.method public declared-synchronized delete()V
+    .locals 5
+
+    monitor-enter p0
+
+    .line 46
+    :try_start_0
+    iget-wide v0, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCPtr:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v4, v0, v2
+
+    if-eqz v4, :cond_1
+
+    .line 47
+    iget-boolean v4, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCMemOwnDerived:Z
+
+    if-eqz v4, :cond_0
+
+    const/4 v4, 0x0
+
+    .line 48
+    iput-boolean v4, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCMemOwnDerived:Z
+
+    .line 49
+    invoke-static {v0, v1}, Lcom/audiodo/aspen/AspenJNI;->delete_ISpatializerCapability(J)V
+
+    .line 51
+    :cond_0
+    iput-wide v2, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCPtr:J
+
+    .line 53
+    :cond_1
+    invoke-super {p0}, Lcom/audiodo/aspen/IObservableProperty;->delete()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 54
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw v0
+.end method
+
+.method protected finalize()V
+    .locals 0
+
+    .line 42
+    invoke-virtual {p0}, Lcom/audiodo/aspen/ISpatializerCapability;->delete()V
+
+    return-void
+.end method
+
+.method public getMode()Lcom/audiodo/aspen/SpatializerMode;
+    .locals 2
+
+    .line 111
+    iget-wide v0, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCPtr:J
+
+    invoke-static {v0, v1, p0}, Lcom/audiodo/aspen/AspenJNI;->ISpatializerCapability_getMode(JLcom/audiodo/aspen/ISpatializerCapability;)I
+
+    move-result v0
+
+    invoke-static {v0}, Lcom/audiodo/aspen/SpatializerMode;->swigToEnum(I)Lcom/audiodo/aspen/SpatializerMode;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public isActivated()Z
+    .locals 2
+
+    .line 93
+    iget-wide v0, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCPtr:J
+
+    invoke-static {v0, v1, p0}, Lcom/audiodo/aspen/AspenJNI;->ISpatializerCapability_isActivated(JLcom/audiodo/aspen/ISpatializerCapability;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isModeSupported(Lcom/audiodo/aspen/SpatializerMode;)Z
+    .locals 2
+
+    .line 122
+    iget-wide v0, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCPtr:J
+
+    invoke-virtual {p1}, Lcom/audiodo/aspen/SpatializerMode;->swigValue()I
+
+    move-result p1
+
+    invoke-static {v0, v1, p0, p1}, Lcom/audiodo/aspen/AspenJNI;->ISpatializerCapability_isModeSupported(JLcom/audiodo/aspen/ISpatializerCapability;I)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public remoteDeviceInSync()Z
+    .locals 2
+
+    .line 102
+    iget-wide v0, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCPtr:J
+
+    invoke-static {v0, v1, p0}, Lcom/audiodo/aspen/AspenJNI;->ISpatializerCapability_remoteDeviceInSync(JLcom/audiodo/aspen/ISpatializerCapability;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public setMode(Lcom/audiodo/aspen/SpatializerMode;)V
+    .locals 2
+
+    .line 84
+    iget-wide v0, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCPtr:J
+
+    invoke-virtual {p1}, Lcom/audiodo/aspen/SpatializerMode;->swigValue()I
+
+    move-result p1
+
+    invoke-static {v0, v1, p0, p1}, Lcom/audiodo/aspen/AspenJNI;->ISpatializerCapability_setMode(JLcom/audiodo/aspen/ISpatializerCapability;I)V
+
+    return-void
+.end method
+
+.method protected swigSetCMemOwn(Z)V
+    .locals 0
+
+    .line 36
+    iput-boolean p1, p0, Lcom/audiodo/aspen/ISpatializerCapability;->swigCMemOwnDerived:Z
+
+    .line 37
+    invoke-super {p0, p1}, Lcom/audiodo/aspen/IObservableProperty;->swigSetCMemOwn(Z)V
+
+    return-void
+.end method

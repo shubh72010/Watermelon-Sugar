@@ -1,0 +1,36 @@
+.class public final synthetic Lcom/nothing/base/settings/battery/ThemedBatteryDrawable$$ExternalSyntheticLambda1;
+.super Ljava/lang/Object;
+.source "D8$$SyntheticClass"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic f$0:Lkotlin/jvm/functions/Function0;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function0;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/nothing/base/settings/battery/ThemedBatteryDrawable$$ExternalSyntheticLambda1;->f$0:Lkotlin/jvm/functions/Function0;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lcom/nothing/base/settings/battery/ThemedBatteryDrawable$$ExternalSyntheticLambda1;->f$0:Lkotlin/jvm/functions/Function0;
+
+    invoke-static {v0}, Lcom/nothing/base/settings/battery/ThemedBatteryDrawable;->$r8$lambda$s_ufO5kWOBwKX-aQdzn2YqJbz0E(Lkotlin/jvm/functions/Function0;)V
+
+    return-void
+.end method

@@ -1,0 +1,44 @@
+.class public final synthetic Lcom/github/s0nerik/fast_contacts/FastContactsPlugin$$ExternalSyntheticLambda5;
+.super Ljava/lang/Object;
+.source "D8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic f$0:Lcom/github/s0nerik/fast_contacts/FastContactsPlugin;
+
+.field public final synthetic f$1:J
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/github/s0nerik/fast_contacts/FastContactsPlugin;J)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/github/s0nerik/fast_contacts/FastContactsPlugin$$ExternalSyntheticLambda5;->f$0:Lcom/github/s0nerik/fast_contacts/FastContactsPlugin;
+
+    iput-wide p2, p0, Lcom/github/s0nerik/fast_contacts/FastContactsPlugin$$ExternalSyntheticLambda5;->f$1:J
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 3
+
+    .line 0
+    iget-object v0, p0, Lcom/github/s0nerik/fast_contacts/FastContactsPlugin$$ExternalSyntheticLambda5;->f$0:Lcom/github/s0nerik/fast_contacts/FastContactsPlugin;
+
+    iget-wide v1, p0, Lcom/github/s0nerik/fast_contacts/FastContactsPlugin$$ExternalSyntheticLambda5;->f$1:J
+
+    invoke-static {v0, v1, v2}, Lcom/github/s0nerik/fast_contacts/FastContactsPlugin;->$r8$lambda$C9V0lu05wxdMP9IWS9u9OU6wKiE(Lcom/github/s0nerik/fast_contacts/FastContactsPlugin;J)[B
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -1,0 +1,403 @@
+[
+  {
+    "name": "微信",
+    "command": 1,
+    "isOn": 1,
+    "packageName": "com.tencent.mm",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "QQ",
+    "command": 2,
+    "isOn": 1,
+    "packageName": "com.tencent.mobileqq",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "短信",
+    "command": 0,
+    "isOn": 1,
+    "packageName": "com.android.mms",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "短信",
+    "command": 0,
+    "isOn": 1,
+    "packageName": "com.android.messaging",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "短信",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.huawei.mms",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "短信",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.miui.sms",
+    "otherApp": 0,
+    "isChina": 1
+  },
+
+  {
+    "name": "短信",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.google.android.apps.messaging",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "短信",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.coloros.mms",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "短信",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.vivo.message",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "短信",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.meizu.mms",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "短信",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.hihonor.mms",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "短信",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.samsung.android.messaging",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "短信",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.oneplus.mms",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "短信",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.lenovo.ideafriend",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "电话",
+    "command": 254,
+    "isOn": 1,
+    "packageName": "com.android.contacts",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "电话",
+    "command": 254,
+    "isOn": 1,
+    "packageName": "com.huawei.contacts",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "电话",
+    "command": 254,
+    "isOn": 1,
+    "packageName": "com.miui.contacts",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "电话",
+    "command": 254,
+    "isOn": 1,
+    "packageName": "com.samsung.android.dialer",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "电话",
+    "command": 254,
+    "isOn": 1,
+    "packageName": "com.coloros.contacts",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "电话",
+    "command": 254,
+    "isOn": 1,
+    "packageName": "com.vivo.contacts",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "电话",
+    "command": 254,
+    "isOn": 1,
+    "packageName": "com.hihonor.contacts",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "电话",
+    "command": 254,
+    "isOn": 1,
+    "packageName": "com.android.dialer",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "电话",
+    "command": 254,
+    "isOn": 1,
+    "packageName": "com.meizu.contacts",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "电话",
+    "command": 254,
+    "isOn": 1,
+    "packageName": "com.oneplus.contacts",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "电话",
+    "command": 254,
+    "isOn": 1,
+    "packageName": "com.google.android.dialer",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "日历",
+    "command": 36,
+    "isOn": 1,
+    "packageName": "com.android.calendar",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "日历",
+    "command": 36,
+    "isOn": 1,
+    "packageName": "com.huawei.calendar",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "日历",
+    "command": 36,
+    "isOn": 1,
+    "packageName": "com.bbk.calendar",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "日历",
+    "command": 36,
+    "isOn": 1,
+    "packageName": "com.google.android.calendar",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "日历",
+    "command": 36,
+    "isOn": 1,
+    "packageName": "com.miui.calendar",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "日历",
+    "command": 36,
+    "isOn": 1,
+    "packageName": "com.coloros.calendar",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "日历",
+    "command": 36,
+    "isOn": 1,
+    "packageName": "com.hihonor.calendar",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "日历",
+    "command": 36,
+    "isOn": 1,
+    "packageName": "com.vivo.calendars",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "日历",
+    "command": 36,
+    "isOn": 1,
+    "packageName": "com.meizu.calendar",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "日历",
+    "command": 36,
+    "isOn": 1,
+    "packageName": "com.oneplus.calendar",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "日历",
+    "command": 36,
+    "isOn": 1,
+    "packageName": "com.lenovo.calendar",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "美团",
+    "command": 82,
+    "isOn": 1,
+    "packageName": "com.sankuai.meituan",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "饿了么",
+    "command": 83,
+    "isOn": 1,
+    "packageName": "me.ele",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "滴滴出行",
+    "command": 84,
+    "isOn": 1,
+    "packageName": "com.sdu.didi.psnger",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "钉钉",
+    "command": 5,
+    "isOn": 1,
+    "packageName": "com.alibaba.android.rimet",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "企业微信",
+    "command": 85,
+    "isOn": 1,
+    "packageName": "com.tencent.wework",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "Nothing X",
+    "command": 7,
+    "isOn": 1,
+    "packageName": "com.nothing.smartcenter_cn",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "淘宝",
+    "command": 6,
+    "isOn": 1,
+    "packageName": "com.taobao.taobao",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "京东",
+    "command": 86,
+    "isOn": 1,
+    "packageName": "com.jingdong.app.mall",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "拼多多",
+    "command": 87,
+    "isOn": 1,
+    "packageName": "com.xunmeng.pinduoduo",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "小红书",
+    "command": 88,
+    "isOn": 1,
+    "packageName": "com.xingin.xhs",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "哔哩哔哩",
+    "command": 89,
+    "isOn": 1,
+    "packageName": "tv.danmaku.bili",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "抖音",
+    "command": 91,
+    "isOn": 1,
+    "packageName": "com.ss.android.ugc.aweme",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "微博",
+    "command": 90,
+    "isOn": 1,
+    "packageName": "com.sina.weibo",
+    "otherApp": 0,
+    "isChina": 1
+  },
+  {
+    "name": "飞书",
+    "command": 92,
+    "isOn": 1,
+    "packageName": "com.ss.android.lark",
+    "otherApp": 0,
+    "isChina": 1
+  }
+]

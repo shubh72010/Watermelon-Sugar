@@ -1,0 +1,76 @@
+.class public final Landroidx/security/crypto/EncryptedSharedPreferencesKt;
+.super Ljava/lang/Object;
+.source "EncryptedSharedPreferences.kt"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000&\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\u001a4\u0010\u0000\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u00052\u0006\u0010\u0006\u001a\u00020\u00072\u0008\u0008\u0002\u0010\u0008\u001a\u00020\t2\u0008\u0008\u0002\u0010\n\u001a\u00020\u000bH\u0007\u00a8\u0006\u000c"
+    }
+    d2 = {
+        "EncryptedSharedPreferences",
+        "Landroid/content/SharedPreferences;",
+        "context",
+        "Landroid/content/Context;",
+        "fileName",
+        "",
+        "masterKey",
+        "Landroidx/security/crypto/MasterKey;",
+        "prefKeyEncryptionScheme",
+        "Landroidx/security/crypto/EncryptedSharedPreferences$PrefKeyEncryptionScheme;",
+        "prefValueEncryptionScheme",
+        "Landroidx/security/crypto/EncryptedSharedPreferences$PrefValueEncryptionScheme;",
+        "security-crypto-ktx_release"
+    }
+    k = 0x2
+    mv = {
+        0x2,
+        0x0,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public static final EncryptedSharedPreferences(Landroid/content/Context;Ljava/lang/String;Landroidx/security/crypto/MasterKey;Landroidx/security/crypto/EncryptedSharedPreferences$PrefKeyEncryptionScheme;Landroidx/security/crypto/EncryptedSharedPreferences$PrefValueEncryptionScheme;)Landroid/content/SharedPreferences;
+    .locals 0
+    .annotation runtime Lkotlin/Deprecated;
+        message = "Use android.content.SharedPreferences instead"
+    .end annotation
+
+    .line 43
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/security/crypto/EncryptedSharedPreferences;->create(Landroid/content/Context;Ljava/lang/String;Landroidx/security/crypto/MasterKey;Landroidx/security/crypto/EncryptedSharedPreferences$PrefKeyEncryptionScheme;Landroidx/security/crypto/EncryptedSharedPreferences$PrefValueEncryptionScheme;)Landroid/content/SharedPreferences;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic EncryptedSharedPreferences$default(Landroid/content/Context;Ljava/lang/String;Landroidx/security/crypto/MasterKey;Landroidx/security/crypto/EncryptedSharedPreferences$PrefKeyEncryptionScheme;Landroidx/security/crypto/EncryptedSharedPreferences$PrefValueEncryptionScheme;ILjava/lang/Object;)Landroid/content/SharedPreferences;
+    .locals 0
+
+    and-int/lit8 p6, p5, 0x8
+
+    if-eqz p6, :cond_0
+
+    .line 40
+    sget-object p3, Landroidx/security/crypto/EncryptedSharedPreferences$PrefKeyEncryptionScheme;->AES256_SIV:Landroidx/security/crypto/EncryptedSharedPreferences$PrefKeyEncryptionScheme;
+
+    :cond_0
+    and-int/lit8 p5, p5, 0x10
+
+    if-eqz p5, :cond_1
+
+    .line 41
+    sget-object p4, Landroidx/security/crypto/EncryptedSharedPreferences$PrefValueEncryptionScheme;->AES256_GCM:Landroidx/security/crypto/EncryptedSharedPreferences$PrefValueEncryptionScheme;
+
+    .line 35
+    :cond_1
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/security/crypto/EncryptedSharedPreferencesKt;->EncryptedSharedPreferences(Landroid/content/Context;Ljava/lang/String;Landroidx/security/crypto/MasterKey;Landroidx/security/crypto/EncryptedSharedPreferences$PrefKeyEncryptionScheme;Landroidx/security/crypto/EncryptedSharedPreferences$PrefValueEncryptionScheme;)Landroid/content/SharedPreferences;
+
+    move-result-object p0
+
+    return-object p0
+.end method

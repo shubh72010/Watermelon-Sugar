@@ -1,0 +1,303 @@
+[
+  {
+    "name": "Gmail",
+    "command": 27,
+    "isOn": 1,
+    "packageName": "com.google.android.gm",
+    "otherApp": 0
+  },
+  {
+    "name": "Google Chat",
+    "command": 255,
+    "isOn": 0,
+    "packageName": "com.google.android.apps.dynamite",
+    "otherApp": 0
+  },
+  {
+    "name": "Message",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.android.mms",
+    "otherApp": 0
+  },
+  {
+    "name": "Message",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.samsung.android.messaging",
+    "otherApp": 0
+  },
+  {
+    "name": "Message",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.transsion.smartmessage",
+    "otherApp": 0
+  },
+  {
+    "name": "Message",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.hihonor.mms",
+    "otherApp": 0
+  },
+  {
+    "name": "Message",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.motorola.android.apps.mms",
+    "otherApp": 0
+  },
+  {
+    "name": "Google Message",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "com.google.android.apps.messaging",
+    "otherApp": 0
+  },
+  {
+    "name": "Message",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "jp.softbank.mb.plusmessage",
+    "otherApp": 0
+  },
+  {
+    "name": "Nothing X",
+    "command": 7,
+    "isOn": 0,
+    "packageName": "com.jusdots.watermelon",
+    "otherApp": 0
+  },
+  {
+    "name": "Messages",
+    "command": 0,
+    "isOn": 0,
+    "packageName": "meet.chat.messages",
+    "otherApp": 0
+  },
+  {
+    "name": "Phone",
+    "command": 4,
+    "isOn": 1,
+    "packageName": "com.google.android.dialer",
+    "otherApp": 0
+  },
+  {
+    "name": "WhatsApp",
+    "command": 8,
+    "isOn": 1,
+    "packageName": "com.whatsapp",
+    "otherApp": 0
+  },
+  {
+    "name": "CMF Watch App",
+    "command": 0,
+    "isOn": 1,
+    "packageName": "com.nothing.cmf.watch",
+    "otherApp": 0
+  },
+  {
+    "name": "Snapchat",
+    "command": 9,
+    "isOn": 1,
+    "packageName": "com.snapchat.android",
+    "otherApp": 0
+  },
+  {
+    "name": "WhatsApp Business",
+    "command": 10,
+    "isOn": 1,
+    "packageName": "com.whatsapp.w4b",
+    "otherApp": 0
+  },
+  {
+    "name": "Truecaller",
+    "command": 11,
+    "isOn": 1,
+    "packageName": "com.truecaller",
+    "otherApp": 0
+  },
+  {
+    "name": "Telegram",
+    "command":12,
+    "isOn": 1,
+    "packageName": "org.telegram.messenger",
+    "otherApp": 0
+  },
+  {
+    "name": "Messenger",
+    "command": 24,
+    "isOn": 1,
+    "packageName": "com.facebook.orca",
+    "otherApp": 0
+  },
+  {
+    "name": "IMO",
+    "command": 14,
+    "isOn": 1,
+    "packageName": "com.imo.android.imoim",
+    "otherApp": 0
+  },
+  {
+    "name": "Callapp",
+    "command": 15,
+    "isOn": 1,
+    "packageName": "com.callapp.contacts",
+    "otherApp": 0
+  },
+  {
+    "name": "Livetalk",
+    "command": 16,
+    "isOn": 1,
+    "packageName": "com.bingo.livetalk",
+    "otherApp": 0
+  },
+  {
+    "name": "Facebook",
+    "command": 17,
+    "isOn": 1,
+    "packageName": "com.facebook.katana",
+    "otherApp": 0
+  },
+  {
+    "name": "Instagram",
+    "command": 18,
+    "isOn": 1,
+    "packageName": "com.instagram.android",
+    "otherApp": 0
+  },
+  {
+    "name": "Discord",
+    "command": 21,
+    "isOn": 1,
+    "packageName": "com.discord",
+    "otherApp": 0
+  },
+  {
+    "name": "Google Voice",
+    "command": 22,
+    "isOn": 1,
+    "packageName": "com.google.android.apps.googlevoice",
+    "otherApp": 0
+  },
+  {
+    "name": "Outlook",
+    "command": 29,
+    "isOn": 1,
+    "packageName": "com.microsoft.office.outlook",
+    "otherApp": 0
+  },
+  {
+    "name": "Skype",
+    "command": 23,
+    "isOn": 1,
+    "packageName": "com.skype.raider",
+    "otherApp": 0
+  },
+  {
+    "name": "Calender",
+    "command": 36,
+    "isOn": 1,
+    "packageName": "com.google.android.calendar",
+    "otherApp": 0
+  },
+  {
+    "name": "LINE",
+    "command": 20,
+    "isOn": 1,
+    "packageName": "jp.naver.line.android",
+    "otherApp": 0
+  },
+  {
+    "name": "Teams",
+    "command": 77,
+    "isOn": 1,
+    "packageName": "com.microsoft.teams",
+    "otherApp": 0
+  },
+  {
+    "name": "X",
+    "command": 25,
+    "isOn": 1,
+    "packageName": "com.twitter.android",
+    "otherApp": 0
+  },
+  {
+    "name": "YouTube",
+    "command": 31,
+    "isOn": 1,
+    "packageName": "com.google.android.youtube",
+    "otherApp": 0
+  },
+  {
+    "name": "Spotify",
+    "command": 79,
+    "isOn": 1,
+    "packageName": "com.spotify.music",
+    "otherApp": 0
+  },
+  {
+    "name": "YouTube Music",
+    "command": 78,
+    "isOn": 1,
+    "packageName": "com.google.android.apps.youtube.music",
+    "otherApp": 0
+  },
+  {
+    "name": "Apple Music",
+    "command": 62,
+    "isOn": 1,
+    "packageName": "com.apple.android.music",
+    "otherApp": 0
+  },
+  {
+    "name": "Weather",
+    "command": 255,
+    "isOn": 1,
+    "packageName": "com.accurate.weather.forecast.live",
+    "otherApp": 0
+  },
+  {
+    "name": "Tiktok",
+    "command": 19,
+    "isOn": 1,
+    "packageName": "com.ss.android.ugc.trill",
+    "otherApp": 0
+  },
+  {
+    "name": "Tiktok",
+    "command": 19,
+    "isOn": 1,
+    "packageName": "com.zhiliaoapp.musically",
+    "otherApp": 0
+  },
+  {
+    "name": "Threads",
+    "command": 80,
+    "isOn": 1,
+    "packageName": "com.instagram.barcelona",
+    "otherApp": 0
+  },
+  {
+    "name": "Kakao talk",
+    "command": 32,
+    "isOn": 1,
+    "packageName": "com.kakao.talk",
+    "otherApp": 0
+  },
+  {
+    "name": "Wechat",
+    "command": 1,
+    "isOn": 1,
+    "packageName": "com.tencent.mm",
+    "otherApp": 0
+  },
+  {
+    "name": "Lark",
+    "command": 81,
+    "isOn": 1,
+    "packageName": "com.larksuite.suite",
+    "otherApp": 0
+  }
+]

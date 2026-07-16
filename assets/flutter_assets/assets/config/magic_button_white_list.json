@@ -1,0 +1,263 @@
+[
+  {
+    "packageName": "com.spotify.music",
+    "serviceName": "",
+    "appName": "Spotify",
+    "order": 0,
+	"canPlayByMediaId" : false,
+    "needMember" : true
+  },
+  {
+    "packageName": "com.apple.android.music",
+    "serviceName": "",
+    "appName": "Apple Music",
+    "order": 1,
+    "needMember" : true
+  },
+  {
+    "packageName": "com.amazon.mp3",
+    "serviceName": "",
+    "appName": "Amazon Music",
+    "order": 2,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.google.android.apps.youtube.music",
+    "serviceName": "",
+    "appName": "YouTube Music",
+    "order": 3,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "deezer.android.app",
+    "serviceName": "",
+    "appName": "Deezer",
+    "order": 4,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.pandora.android",
+    "serviceName": "",
+    "appName": "Pandora",
+    "order": 5,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.aspiro.tidal",
+    "serviceName": "",
+    "appName": "Tidal",
+    "order": 6,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.soundcloud.android",
+    "serviceName": "",
+    "appName": "SoundCloud",
+    "canPlayByMediaId" : false,
+    "order": 7
+  },
+  {
+    "packageName": "com.tencent.qqmusic",
+    "serviceName": "",
+    "appName": "QQ Music",
+    "order": 8,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.gaana",
+    "serviceName": "",
+    "appName": "Gaana",
+    "order": 9,
+    "needMember" : true
+  },
+  {
+    "packageName": "com.clearchannel.iheartradio.controller",
+    "serviceName": "",
+    "appName": "iHeartRadio",
+    "order": 11,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.ntslive.ntsradio",
+    "serviceName": "",
+    "appName": "NTS Radio",
+    "order": 12,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.bbc.sounds",
+    "serviceName": "",
+    "appName": "BBC Sounds",
+    "order": 13,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "tunein.player",
+    "serviceName": "",
+    "appName": "TuneIn Radio",
+    "order": 16
+  },
+  {
+    "packageName": "com.bandcamp.android",
+    "serviceName": "",
+    "appName": "Bandcamp",
+    "order": 17,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "au.com.shiftyjelly.pocketcasts",
+    "serviceName": "",
+    "appName": "Pocket Casts",
+    "order": 18
+  },
+  {
+    "packageName": "com.podbean.app.podcast",
+    "serviceName": "",
+    "appName": "Podbean",
+    "order": 19
+  },
+  {
+    "packageName": "com.patreon.android",
+    "serviceName": "",
+    "appName": "Patreon",
+    "order": 21
+  },
+  {
+    "packageName": "com.mixcloud.player",
+    "serviceName": "",
+    "appName": "Mixcloud",
+    "order": 22,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.substack.app",
+    "serviceName": "",
+    "appName": "Substack",
+    "order": 23
+  },
+  {
+    "packageName": "com.thisisglobal.player.lbc",
+    "serviceName": "",
+    "appName": "LBC",
+    "order": 26,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.global.player",
+    "serviceName": "",
+    "appName": "Global Player Radio & Podcasts",
+    "order": 27,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.audible.application",
+    "serviceName": "",
+    "appName": "Audible",
+    "order": 28,
+    "needMember" : true
+  },
+  {
+    "packageName": "com.android.abr",
+    "serviceName": "",
+    "appName": "Absolute Radio",
+    "order": 29,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "uk.co.virginradio.android",
+    "serviceName": "",
+    "appName": "Virgin Radio UK",
+    "order": 30,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "jp.linecorp.linemusic.android",
+    "serviceName": "",
+    "appName": "Line Music",
+    "order": 33,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.radio.pocketfm",
+    "serviceName": "",
+    "appName": "Pocket FM",
+    "order": 34,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.nothing.hearthstone",
+    "serviceName": "com.nothing.news_service.playservice.NewsPodcastPlaybackService",
+    "appName": "Nothing News",
+    "order": 36,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.android.chrome",
+    "serviceName": "",
+    "appName": "NTS Radio",
+    "order": 38,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.netease.cloudmusic",
+    "serviceName": "",
+    "appName": "网易云",
+    "order": 39,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.kugou.android",
+    "serviceName": "",
+    "appName": "酷狗",
+    "order": 40,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "cn.kuwo.player",
+    "serviceName": "",
+    "appName": "酷我",
+    "order": 41,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "cmccwm.mobilemusic",
+    "serviceName": "",
+    "appName": "咪咕音乐",
+    "order": 43,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.luna.music",
+    "serviceName": "",
+    "appName": "汽水音乐",
+    "order": 44,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "com.ximalaya.ting.android",
+    "serviceName": "",
+    "appName": "喜马拉雅",
+    "order": 45,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "fm.qingting.qtradio",
+    "serviceName": "",
+    "appName": "蜻蜓FM",
+    "order": 46,
+    "canPlayByMediaId" : false
+  },
+  {
+    "packageName": "app.podcast.cosmos",
+    "serviceName": "",
+    "appName": "小宇宙",
+    "order": 47
+  },
+  {
+    "packageName": "bubei.tingshu",
+    "serviceName": "",
+    "appName": "懒人听书",
+    "order": 48,
+    "canPlayByMediaId" : false
+  }
+]

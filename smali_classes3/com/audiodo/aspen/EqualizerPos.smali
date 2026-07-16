@@ -1,0 +1,212 @@
+.class public Lcom/audiodo/aspen/EqualizerPos;
+.super Ljava/lang/Object;
+.source "EqualizerPos.java"
+
+
+# instance fields
+.field protected transient swigCMemOwn:Z
+
+.field private transient swigCPtr:J
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 3
+
+    .line 60
+    invoke-static {}, Lcom/audiodo/aspen/AspenJNI;->new_EqualizerPos__SWIG_0()J
+
+    move-result-wide v0
+
+    const/4 v2, 0x1
+
+    invoke-direct {p0, v0, v1, v2}, Lcom/audiodo/aspen/EqualizerPos;-><init>(JZ)V
+
+    return-void
+.end method
+
+.method public constructor <init>(FF)V
+    .locals 1
+
+    .line 74
+    invoke-static {p1, p2}, Lcom/audiodo/aspen/AspenJNI;->new_EqualizerPos__SWIG_1(FF)J
+
+    move-result-wide p1
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, p1, p2, v0}, Lcom/audiodo/aspen/EqualizerPos;-><init>(JZ)V
+
+    return-void
+.end method
+
+.method protected constructor <init>(JZ)V
+    .locals 0
+
+    .line 18
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 19
+    iput-boolean p3, p0, Lcom/audiodo/aspen/EqualizerPos;->swigCMemOwn:Z
+
+    .line 20
+    iput-wide p1, p0, Lcom/audiodo/aspen/EqualizerPos;->swigCPtr:J
+
+    return-void
+.end method
+
+.method protected static getCPtr(Lcom/audiodo/aspen/EqualizerPos;)J
+    .locals 2
+
+    if-nez p0, :cond_0
+
+    const-wide/16 v0, 0x0
+
+    return-wide v0
+
+    .line 24
+    :cond_0
+    iget-wide v0, p0, Lcom/audiodo/aspen/EqualizerPos;->swigCPtr:J
+
+    return-wide v0
+.end method
+
+.method protected static swigRelease(Lcom/audiodo/aspen/EqualizerPos;)J
+    .locals 3
+
+    if-eqz p0, :cond_1
+
+    .line 30
+    iget-boolean v0, p0, Lcom/audiodo/aspen/EqualizerPos;->swigCMemOwn:Z
+
+    if-eqz v0, :cond_0
+
+    .line 32
+    iget-wide v0, p0, Lcom/audiodo/aspen/EqualizerPos;->swigCPtr:J
+
+    const/4 v2, 0x0
+
+    .line 33
+    iput-boolean v2, p0, Lcom/audiodo/aspen/EqualizerPos;->swigCMemOwn:Z
+
+    .line 34
+    invoke-virtual {p0}, Lcom/audiodo/aspen/EqualizerPos;->delete()V
+
+    return-wide v0
+
+    .line 31
+    :cond_0
+    new-instance p0, Ljava/lang/RuntimeException;
+
+    const-string v0, "Cannot release ownership as memory is not owned"
+
+    invoke-direct {p0, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_1
+    const-wide/16 v0, 0x0
+
+    return-wide v0
+.end method
+
+
+# virtual methods
+.method public declared-synchronized delete()V
+    .locals 5
+
+    monitor-enter p0
+
+    .line 45
+    :try_start_0
+    iget-wide v0, p0, Lcom/audiodo/aspen/EqualizerPos;->swigCPtr:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v4, v0, v2
+
+    if-eqz v4, :cond_1
+
+    .line 46
+    iget-boolean v4, p0, Lcom/audiodo/aspen/EqualizerPos;->swigCMemOwn:Z
+
+    if-eqz v4, :cond_0
+
+    const/4 v4, 0x0
+
+    .line 47
+    iput-boolean v4, p0, Lcom/audiodo/aspen/EqualizerPos;->swigCMemOwn:Z
+
+    .line 48
+    invoke-static {v0, v1}, Lcom/audiodo/aspen/AspenJNI;->delete_EqualizerPos(J)V
+
+    .line 50
+    :cond_0
+    iput-wide v2, p0, Lcom/audiodo/aspen/EqualizerPos;->swigCPtr:J
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 52
+    :cond_1
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    throw v0
+.end method
+
+.method protected finalize()V
+    .locals 0
+
+    .line 41
+    invoke-virtual {p0}, Lcom/audiodo/aspen/EqualizerPos;->delete()V
+
+    return-void
+.end method
+
+.method public getX()F
+    .locals 2
+
+    .line 83
+    iget-wide v0, p0, Lcom/audiodo/aspen/EqualizerPos;->swigCPtr:J
+
+    invoke-static {v0, v1, p0}, Lcom/audiodo/aspen/AspenJNI;->EqualizerPos_getX(JLcom/audiodo/aspen/EqualizerPos;)F
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getY()F
+    .locals 2
+
+    .line 92
+    iget-wide v0, p0, Lcom/audiodo/aspen/EqualizerPos;->swigCPtr:J
+
+    invoke-static {v0, v1, p0}, Lcom/audiodo/aspen/AspenJNI;->EqualizerPos_getY(JLcom/audiodo/aspen/EqualizerPos;)F
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 2
+
+    .line 101
+    iget-wide v0, p0, Lcom/audiodo/aspen/EqualizerPos;->swigCPtr:J
+
+    invoke-static {v0, v1, p0}, Lcom/audiodo/aspen/AspenJNI;->EqualizerPos_toString(JLcom/audiodo/aspen/EqualizerPos;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

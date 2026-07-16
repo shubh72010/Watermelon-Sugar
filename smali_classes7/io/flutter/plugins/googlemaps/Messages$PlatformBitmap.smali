@@ -1,0 +1,187 @@
+.class public final Lio/flutter/plugins/googlemaps/Messages$PlatformBitmap;
+.super Ljava/lang/Object;
+.source "Messages.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lio/flutter/plugins/googlemaps/Messages;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "PlatformBitmap"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lio/flutter/plugins/googlemaps/Messages$PlatformBitmap$Builder;
+    }
+.end annotation
+
+
+# instance fields
+.field private bitmap:Ljava/lang/Object;
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .line 5436
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method static fromList(Ljava/util/ArrayList;)Lio/flutter/plugins/googlemaps/Messages$PlatformBitmap;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/ArrayList<",
+            "Ljava/lang/Object;",
+            ">;)",
+            "Lio/flutter/plugins/googlemaps/Messages$PlatformBitmap;"
+        }
+    .end annotation
+
+    .line 5480
+    new-instance v0, Lio/flutter/plugins/googlemaps/Messages$PlatformBitmap;
+
+    invoke-direct {v0}, Lio/flutter/plugins/googlemaps/Messages$PlatformBitmap;-><init>()V
+
+    const/4 v1, 0x0
+
+    .line 5481
+    invoke-virtual {p0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object p0
+
+    .line 5482
+    invoke-virtual {v0, p0}, Lio/flutter/plugins/googlemaps/Messages$PlatformBitmap;->setBitmap(Ljava/lang/Object;)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public equals(Ljava/lang/Object;)Z
+    .locals 2
+
+    if-ne p0, p1, :cond_0
+
+    const/4 p1, 0x1
+
+    return p1
+
+    :cond_0
+    if-eqz p1, :cond_2
+
+    .line 5443
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v1
+
+    if-eq v0, v1, :cond_1
+
+    goto :goto_0
+
+    .line 5446
+    :cond_1
+    check-cast p1, Lio/flutter/plugins/googlemaps/Messages$PlatformBitmap;
+
+    .line 5447
+    iget-object v0, p0, Lio/flutter/plugins/googlemaps/Messages$PlatformBitmap;->bitmap:Ljava/lang/Object;
+
+    iget-object p1, p1, Lio/flutter/plugins/googlemaps/Messages$PlatformBitmap;->bitmap:Ljava/lang/Object;
+
+    invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    return p1
+
+    :cond_2
+    :goto_0
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public getBitmap()Ljava/lang/Object;
+    .locals 1
+
+    .line 5425
+    iget-object v0, p0, Lio/flutter/plugins/googlemaps/Messages$PlatformBitmap;->bitmap:Ljava/lang/Object;
+
+    return-object v0
+.end method
+
+.method public hashCode()I
+    .locals 1
+
+    .line 5452
+    iget-object v0, p0, Lio/flutter/plugins/googlemaps/Messages$PlatformBitmap;->bitmap:Ljava/lang/Object;
+
+    filled-new-array {v0}, [Ljava/lang/Object;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ljava/util/Objects;->hash([Ljava/lang/Object;)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public setBitmap(Ljava/lang/Object;)V
+    .locals 1
+
+    if-eqz p1, :cond_0
+
+    .line 5432
+    iput-object p1, p0, Lio/flutter/plugins/googlemaps/Messages$PlatformBitmap;->bitmap:Ljava/lang/Object;
+
+    return-void
+
+    .line 5430
+    :cond_0
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    const-string v0, "Nonnull field \"bitmap\" is null."
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method toList()Ljava/util/ArrayList;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/ArrayList<",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+
+    .line 5474
+    new-instance v0, Ljava/util/ArrayList;
+
+    const/4 v1, 0x1
+
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
+
+    .line 5475
+    iget-object v1, p0, Lio/flutter/plugins/googlemaps/Messages$PlatformBitmap;->bitmap:Ljava/lang/Object;
+
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+
+    return-object v0
+.end method
