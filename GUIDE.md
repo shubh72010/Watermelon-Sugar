@@ -14,6 +14,8 @@ Rebrand `com.nothing.smartcenter` (Nothing X 3.6.1) to `com.jusdots.watermelon` 
 java -jar apktool.jar d original.apk -o decompiled/
 ```
 
+This repo contains the output of this step — the `smali*/`, `assets/`, `original/`, and `unknown/` directories. If starting from scratch, decompile the stock APK first.
+
 ## Step 2: Smali Package Rename
 
 Replace all occurrences of `Lcom/nothing/smartcenter/` with `Lcom/jusdots/watermelon/` in every `.smali` file under `decompiled/smali*/`:
@@ -92,11 +94,11 @@ adb install signed.apk
 | `INSTALL_FAILED_MISSING_SPLIT` | `android:requiredSplitTypes` / `android:splitTypes` still in manifest | Remove them (Step 5a) |
 | `INSTALL_FAILED_DUPLICATE_PERMISSION` | `<permission>` with `com.nothing.*` name conflicts with system | Remove the declaration (Step 5b) |
 | `INSTALL_FAILED_CONFLICTING_PROVIDER` | Provider authority still uses `com.nothing.*` string | Rename it (Step 5c) |
-| `ClassNotFoundException` | Renamed a class string in manifest (e.g. `com.nothing.base.*`) that still exists in DEX | Only rename `android:authorities`, never `android:name` for non-`smartcenter` classes |
-| `Failure [INSTALL_FAILED_UPDATE_INCOMPATIBLE]` | Old version of the app with a different signature installed | `adb uninstall com.jusdots.watermelon` first |
+| `ClassNotFoundException` | Renamed a class string in manifest that still exists in DEX | Only rename `android:authorities`, never `android:name` for non-`smartcenter` classes |
+| `Failure [INSTALL_FAILED_UPDATE_INCOMPATIBLE]` | Old version with a different signature installed | `adb uninstall com.jusdots.watermelon` first |
 
 ## Limitations
 
-- Custom permissions defined by the original app (`com.nothing.*`) are dropped — any other app relying on them to communicate with yours will break
-- The app's name will still show "Nothing X" in the launcher (it's a hardcoded string, not the manifest label — can be changed in `res/values/strings.xml`)
-- `com.nothing.base.*` classes remain as-is (they're shared-library classes bundled in the DEX, not under `smartcenter` package)
+- Custom permissions defined by the original app (`com.nothing.*`) are dropped — any other app relying on them will break
+- The app's name still shows "Nothing X" in the launcher (hardcoded string, not manifest label — change in `res/values/strings.xml`)
+- `com.nothing.base.*` classes remain as-is (shared-library classes bundled in DEX, not under `smartcenter` package)
